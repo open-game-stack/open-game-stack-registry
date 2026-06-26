@@ -69,11 +69,11 @@
   &quot;type&quot;: &quot;SoftwareApplication&quot;,
   &quot;name&quot;: &quot;Lumen Drift&quot;,
   &quot;description&quot;: &quot;Atmospheric puzzle-platform prototype included to demonstrate collection and search output.&quot;,
-  &quot;genre&quot;: &quot;puzzle&quot;,
+  &quot;applicationCategory&quot;: &quot;puzzle&quot;,
   &quot;publisher&quot;: &quot;/publishers/lighthouse&quot;,
   &quot;url&quot;: &quot;/games/lumen-drift&quot;,
   &quot;image&quot;: &quot;/games/lumen-drift/index.jpg&quot;,
-  &quot;tags&quot;: [
+  &quot;keywords&quot;: [
     &quot;puzzle&quot;,
     &quot;platformer&quot;
   ]
@@ -116,39 +116,6 @@
         &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/search/name&quot;,
         &quot;@type&quot;: &quot;ItemList&quot;,
         &quot;name&quot;: &quot;name&quot;
-      }
-    }
-  ]
-}</code></pre>
-    <h3>Search Value Index</h3>
-    <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/games/search/genre/puzzle</code></p>
-    <p>Example Response:</p>
-    <pre><code>{
-  &quot;@context&quot;: &quot;https://schema.org/&quot;,
-  &quot;@type&quot;: &quot;ItemList&quot;,
-  &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/search/genre/puzzle&quot;,
-  &quot;name&quot;: &quot;games genre puzzle&quot;,
-  &quot;about&quot;: [
-    {
-      &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games&quot;,
-      &quot;@type&quot;: &quot;ItemList&quot;,
-      &quot;name&quot;: &quot;games collection&quot;
-    },
-    {
-      &quot;@type&quot;: &quot;DefinedTerm&quot;,
-      &quot;name&quot;: &quot;puzzle&quot;,
-      &quot;inDefinedTermSet&quot;: {
-        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/search/genre&quot;
-      }
-    }
-  ],
-  &quot;itemListElement&quot;: [
-    {
-      &quot;@type&quot;: &quot;ListItem&quot;,
-      &quot;item&quot;: {
-        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/lumen-drift&quot;,
-        &quot;@type&quot;: &quot;SoftwareApplication&quot;,
-        &quot;name&quot;: &quot;Lumen Drift&quot;
       }
     }
   ]

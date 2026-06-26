@@ -11,22 +11,5 @@
       "name": "games collection"
     }
   ],
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/genre/puzzle",
-        "@type": "ItemList",
-        "name": "puzzle"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/genre/adventure",
-        "@type": "ItemList",
-        "name": "adventure"
-      }
-    }
-  ]
+  "itemListElement": []
 }

@@ -11,38 +11,5 @@
       "name": "games collection"
     }
   ],
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/tags/puzzle",
-        "@type": "ItemList",
-        "name": "puzzle"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/tags/platformer",
-        "@type": "ItemList",
-        "name": "platformer"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/tags/sci-fi",
-        "@type": "ItemList",
-        "name": "sci-fi"
-      }
-    },
-    {
-      "@type": "ListItem",
-      "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/tags/single-player",
-        "@type": "ItemList",
-        "name": "single-player"
-      }
-    }
-  ]
+  "itemListElement": []
 }
