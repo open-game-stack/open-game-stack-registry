@@ -1,0 +1,9 @@
+{
+  "$schema": "https://kmturley.github.io/static-api-json-schema/schema/publishers",
+  "@context": "https://schema.org/",
+  "@type": "Organization",
+  "@id": "https://kmturley.github.io/static-api-json-schema/publishers/acme",
+  "name": "Acme Interactive",
+  "description": "Independent publisher focused on polished retro-inspired releases.",
+  "url": "https://www.acmeinteractive.example.com"
+}

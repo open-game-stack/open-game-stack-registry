@@ -1,0 +1,20 @@
+{
+  "$schema": "https://kmturley.github.io/static-api-json-schema/schema/games",
+  "@context": "https://schema.org/",
+  "@type": "SoftwareApplication",
+  "@id": "https://kmturley.github.io/static-api-json-schema/games/lumen-drift",
+  "name": "Lumen Drift",
+  "description": "Atmospheric puzzle-platform prototype included to demonstrate collection and search output.",
+  "applicationCategory": "puzzle",
+  "keywords": [
+    "puzzle",
+    "platformer"
+  ],
+  "publisher": {
+    "@id": "https://kmturley.github.io/static-api-json-schema/publishers/lighthouse",
+    "@type": "Organization",
+    "name": "Lighthouse Studio"
+  },
+  "url": "https://kmturley.github.io/static-api-json-schema/games/lumen-drift",
+  "image": "https://kmturley.github.io/static-api-json-schema/games/lumen-drift/index.jpg"
+}

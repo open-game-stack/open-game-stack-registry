@@ -1,0 +1,144 @@
+{
+  "$schema": "https://kmturley.github.io/static-api-json-schema/schema/search-manifest",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name",
+  "name": "publishers search by name",
+  "about": [
+    {
+      "@id": "https://kmturley.github.io/static-api-json-schema/publishers",
+      "@type": "ItemList",
+      "name": "publishers collection"
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/a",
+        "@type": "ItemList",
+        "name": "a"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/c",
+        "@type": "ItemList",
+        "name": "c"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/d",
+        "@type": "ItemList",
+        "name": "d"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/e",
+        "@type": "ItemList",
+        "name": "e"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/g",
+        "@type": "ItemList",
+        "name": "g"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/h",
+        "@type": "ItemList",
+        "name": "h"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/i",
+        "@type": "ItemList",
+        "name": "i"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/l",
+        "@type": "ItemList",
+        "name": "l"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/m",
+        "@type": "ItemList",
+        "name": "m"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/n",
+        "@type": "ItemList",
+        "name": "n"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/o",
+        "@type": "ItemList",
+        "name": "o"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/r",
+        "@type": "ItemList",
+        "name": "r"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/s",
+        "@type": "ItemList",
+        "name": "s"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/t",
+        "@type": "ItemList",
+        "name": "t"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/u",
+        "@type": "ItemList",
+        "name": "u"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/v",
+        "@type": "ItemList",
+        "name": "v"
+      }
+    }
+  ]
+}

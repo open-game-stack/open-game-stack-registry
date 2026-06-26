@@ -1,0 +1,24 @@
+{
+  "$schema": "https://kmturley.github.io/static-api-json-schema/schema/search-manifest",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search",
+  "name": "publishers search",
+  "about": [
+    {
+      "@id": "https://kmturley.github.io/static-api-json-schema/publishers",
+      "@type": "ItemList",
+      "name": "publishers collection"
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name",
+        "@type": "ItemList",
+        "name": "name"
+      }
+    }
+  ]
+}

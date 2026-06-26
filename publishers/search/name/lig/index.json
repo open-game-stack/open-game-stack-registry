@@ -1,0 +1,31 @@
+{
+  "$schema": "https://kmturley.github.io/static-api-json-schema/schema/search-value",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/lig",
+  "name": "publishers name lig",
+  "about": [
+    {
+      "@id": "https://kmturley.github.io/static-api-json-schema/publishers",
+      "@type": "ItemList",
+      "name": "publishers collection"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "lig",
+      "inDefinedTermSet": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name"
+      }
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/lighthouse",
+        "@type": "Organization",
+        "name": "Lighthouse Studio"
+      }
+    }
+  ]
+}

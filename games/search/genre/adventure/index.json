@@ -1,0 +1,31 @@
+{
+  "$schema": "https://kmturley.github.io/static-api-json-schema/schema/search-value",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://kmturley.github.io/static-api-json-schema/games/search/genre/adventure",
+  "name": "games genre adventure",
+  "about": [
+    {
+      "@id": "https://kmturley.github.io/static-api-json-schema/games",
+      "@type": "ItemList",
+      "name": "games collection"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "adventure",
+      "inDefinedTermSet": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/games/search/genre"
+      }
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/games/space-quest",
+        "@type": "SoftwareApplication",
+        "name": "Space Quest"
+      }
+    }
+  ]
+}

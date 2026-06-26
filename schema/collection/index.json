@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "@context": {
+      "type": "string",
+      "minLength": 1
+    },
+    "@type": {
+      "type": "string",
+      "minLength": 1
+    },
+    "@id": {
+      "type": "string",
+      "format": "uri"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "itemListElement": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "@type": {
+            "type": "string",
+            "const": "ListItem"
+          },
+          "item": {
+            "type": "object",
+            "properties": {
+              "@id": {
+                "type": "string",
+                "format": "uri"
+              },
+              "@type": {
+                "type": "string",
+                "minLength": 1
+              },
+              "name": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "@id",
+              "@type"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "@type",
+          "item"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "@context",
+    "@type",
+    "@id",
+    "name",
+    "itemListElement"
+  ],
+  "additionalProperties": false,
+  "$id": "https://kmturley.github.io/static-api-json-schema/schema/collection"
+}

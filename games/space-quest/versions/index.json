@@ -1,0 +1,32 @@
+{
+  "$schema": "https://kmturley.github.io/static-api-json-schema/schema/version",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://kmturley.github.io/static-api-json-schema/games/space-quest/versions",
+  "name": "space-quest versions",
+  "about": [
+    {
+      "@id": "https://kmturley.github.io/static-api-json-schema/games/space-quest",
+      "@type": "SoftwareApplication",
+      "name": "Space Quest"
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/games/space-quest/versions/1.1.0",
+        "@type": "SoftwareApplication",
+        "name": "Space Quest 1.1.0"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/games/space-quest/versions/1.0.0",
+        "@type": "SoftwareApplication",
+        "name": "Space Quest 1.0.0"
+      }
+    }
+  ]
+}

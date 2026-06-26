@@ -1,0 +1,25 @@
+{
+  "$schema": "https://kmturley.github.io/static-api-json-schema/schema/collection",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://kmturley.github.io/static-api-json-schema/games",
+  "name": "games collection",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/games/lumen-drift",
+        "@type": "SoftwareApplication",
+        "name": "Lumen Drift"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://kmturley.github.io/static-api-json-schema/games/space-quest",
+        "@type": "SoftwareApplication",
+        "name": "Space Quest"
+      }
+    }
+  ]
+}

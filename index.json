@@ -1,0 +1,30 @@
+{
+  "$schema": "https://kmturley.github.io/static-api-json-schema/schema/root",
+  "@context": "https://schema.org/",
+  "@type": "DataCatalog",
+  "@id": "https://kmturley.github.io/static-api-json-schema",
+  "name": "Static API JSON Schema",
+  "version": "0.1.0",
+  "hasPart": [
+    {
+      "@id": "https://kmturley.github.io/static-api-json-schema/games",
+      "@type": "ItemList",
+      "name": "games"
+    },
+    {
+      "@id": "https://kmturley.github.io/static-api-json-schema/publishers",
+      "@type": "ItemList",
+      "name": "publishers"
+    },
+    {
+      "@id": "https://kmturley.github.io/static-api-json-schema/games/search",
+      "@type": "ItemList",
+      "name": "games search"
+    },
+    {
+      "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search",
+      "@type": "ItemList",
+      "name": "publishers search"
+    }
+  ]
+}
