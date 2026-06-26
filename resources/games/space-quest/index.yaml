@@ -1,0 +1,10 @@
+type: SoftwareApplication
+name: Space Quest
+description: Narrative exploration game used as the sample static API resource.
+genre: adventure
+publisher: /publishers/acme
+url: /games/space-quest
+image: /games/space-quest/index.jpg
+tags:
+  - sci-fi
+  - single-player

@@ -1,0 +1,42 @@
+{
+  "name": "static-api-json-schema",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Transform yaml into schema.org-compatible JSON-LD files and deploy as a static API.",
+  "author": "kmturley",
+  "license": "cc0-1.0",
+  "keywords": [
+    "static",
+    "api",
+    "json",
+    "schema"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "npm run format && npm run lint && npm run build && npm test",
+    "clean": "rimraf dist out",
+    "dev": "tsx --watch --watch-path ./src --watch-path ./resources ./src/core/dev.ts",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "start": "tsx ./src/core/build.ts",
+    "test": "tsx --test ./test/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "validate": "tsx ./src/core/validate.ts"
+  },
+  "dependencies": {
+    "yaml": "^2.8.1",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^24.3.0",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "rimraf": "^6.1.3",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.18.1"
+  }
+}
