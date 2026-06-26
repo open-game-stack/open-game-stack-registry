@@ -746,9 +746,11 @@ test("generates substring name search indexes covering all character positions",
 
   // name manifest lists single-char entries only
   const nameManifest = JSON.parse(await fs.readFile(path.join(cwd, "out/games/search/name/index.json"), "utf8"));
-  assert.ok(nameManifest.itemListElement.every((item: JsonObject) => {
-    const id = (item.item as JsonObject)["@id"] as string;
-    const lastSegment = id.split("/").at(-1) ?? "";
-    return lastSegment.length === 1;
-  }));
+  assert.ok(
+    nameManifest.itemListElement.every((item: JsonObject) => {
+      const id = (item.item as JsonObject)["@id"] as string;
+      const lastSegment = id.split("/").at(-1) ?? "";
+      return lastSegment.length === 1;
+    }),
+  );
 });

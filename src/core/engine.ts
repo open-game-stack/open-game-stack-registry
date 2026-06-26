@@ -84,7 +84,10 @@ const SearchManifestSchema = IndexDocumentSchema.extend({
 
 const SearchValueIndexSchema = IndexDocumentSchema.extend({
   name: z.string().min(1),
-  about: z.array(z.union([ItemListReferenceSchema, DefinedTermSchema])).min(1).max(2),
+  about: z
+    .array(z.union([ItemListReferenceSchema, DefinedTermSchema]))
+    .min(1)
+    .max(2),
   itemListElement: z.array(ListItemSchema),
 });
 
@@ -868,17 +871,17 @@ function buildSearchIndexes(
     };
 
     if (strategy === "substring") {
-      const substringToResources = new Map<
-        string,
-        Array<{ resourceId: string; jsonLdType: string; name: string }>
-      >();
+      const substringToResources = new Map<string, Array<{ resourceId: string; jsonLdType: string; name: string }>>();
 
       for (const instance of instances) {
         const value = getPathValue(instance.resource.data, attribute);
         if (typeof value !== "string" || value.length === 0) {
           continue;
         }
-        const words = value.toLowerCase().split(/[^a-z0-9]+/).filter((w) => w.length > 0);
+        const words = value
+          .toLowerCase()
+          .split(/[^a-z0-9]+/)
+          .filter((w) => w.length > 0);
         const substrings = new Set<string>();
         for (const word of words) {
           for (const sub of generateSubstrings(word, attrConfig.minLength ?? 1, attrConfig.maxLength ?? 5)) {

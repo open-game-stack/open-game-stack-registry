@@ -118,9 +118,7 @@ export const gamesResourceType: ResourceTypeDefinition = {
       ...(resource.data.tags ? { keywords: resource.data.tags as string[] } : {}),
       publisher: helper.resolveInternalReference(resource.data.publisher as string),
       url: resolvePublicUrl(helper.rootDomain(), resource.data.url as string),
-      ...(resource.data.image
-        ? { image: resolvePublicUrl(helper.rootDomain(), resource.data.image as string) }
-        : {}),
+      ...(resource.data.image ? { image: resolvePublicUrl(helper.rootDomain(), resource.data.image as string) } : {}),
       ...(versionRefs.length > 0 ? { versions: versionRefs } : {}),
       ...(latestVersion ? { latestVersion } : {}),
     });
@@ -132,14 +130,16 @@ export const gamesResourceType: ResourceTypeDefinition = {
       datePublished: version.data.datePublished as string,
       releaseNotes: version.data.releaseNotes as string,
       isPartOf: helper.toReferenceObject(helper.resourceUrl(), "SoftwareApplication", resource.data.name as string),
-      associatedMedia: (version.data.files as Array<{
-        name: string;
-        path: string;
-        encodingFormat: string;
-        license: string;
-        operatingSystem?: string[];
-        processorRequirements?: string[];
-      }>).map((file) => ({
+      associatedMedia: (
+        version.data.files as Array<{
+          name: string;
+          path: string;
+          encodingFormat: string;
+          license: string;
+          operatingSystem?: string[];
+          processorRequirements?: string[];
+        }>
+      ).map((file) => ({
         "@type": "MediaObject",
         name: file.name,
         ...(helper.copyAsset(
