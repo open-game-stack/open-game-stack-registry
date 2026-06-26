@@ -67,7 +67,10 @@ async function validateFiles(result: BuildResult, target: FileTarget | undefined
         const contentUrl = media.contentUrl as string | undefined;
         if (typeof contentUrl !== "string") continue;
 
-        const urlPath = contentUrl.startsWith(rootDomain) ? contentUrl.slice(rootDomain.length) : contentUrl;
+        // External URLs have user-declared sha256 and contentSize enforced by schema
+        if (!contentUrl.startsWith(rootDomain)) continue;
+
+        const urlPath = contentUrl.slice(rootDomain.length);
         const asset = assetByUrlPath.get(urlPath);
 
         if (!asset) {

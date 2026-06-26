@@ -20,14 +20,24 @@ const GameSchema = z.object({
 const OS = z.enum(["windows", "macos", "linux", "android", "ios", "web"]);
 const Arch = z.enum(["x86", "x86_64", "arm", "arm64", "wasm"]);
 
-const GameFileSchema = z.object({
-  name: z.string().min(1).max(128),
-  contentUrl: z.string().min(3).max(256),
-  encodingFormat: z.string().min(1).max(128),
-  license: HttpsUrl,
-  operatingSystem: z.array(OS).min(1).optional(),
-  processorRequirements: z.array(Arch).min(1).optional(),
-});
+const LocalPath = z.string().min(1).max(256).startsWith("/");
+const Sha256 = z.string().regex(/^[a-f0-9]{64}$/);
+
+const GameFileSchema = z
+  .object({
+    name: z.string().min(1).max(128),
+    contentUrl: z.union([HttpsUrl, LocalPath]),
+    encodingFormat: z.string().min(1).max(128),
+    license: HttpsUrl,
+    operatingSystem: z.array(OS).min(1).optional(),
+    processorRequirements: z.array(Arch).min(1).optional(),
+    sha256: Sha256.optional(),
+    contentSize: z.number().int().nonnegative().optional(),
+  })
+  .refine((f) => !f.contentUrl.startsWith("https://") || (f.sha256 !== undefined && f.contentSize !== undefined), {
+    message: "sha256 and contentSize are required when contentUrl is an external https:// URL",
+    path: ["sha256"],
+  });
 
 const GameVersionSchema = z.object({
   type: z.literal("SoftwareApplication"),
@@ -138,25 +148,33 @@ export const gamesResourceType: ResourceTypeDefinition = {
           license: string;
           operatingSystem?: string[];
           processorRequirements?: string[];
+          sha256?: string;
+          contentSize?: number;
         }>
-      ).map((file) => ({
-        "@type": "MediaObject",
-        name: file.name,
-        ...(helper.copyAsset(
-          {
-            path: file.contentUrl,
-            encodingFormat: file.encodingFormat,
-            license: file.license,
-            ...(file.operatingSystem ? { operatingSystem: file.operatingSystem as JsonValue } : {}),
-            ...(file.processorRequirements ? { processorRequirements: file.processorRequirements as JsonValue } : {}),
-          },
-          {
-            resourceType: version.resourceType,
-            resourceId: version.resourceId,
-            versionId: version.versionId,
-          },
-        ) as JsonObject),
-      })),
+      ).map((file) => {
+        const sharedMetadata = {
+          encodingFormat: file.encodingFormat,
+          license: file.license,
+          ...(file.operatingSystem ? { operatingSystem: file.operatingSystem as JsonValue } : {}),
+          ...(file.processorRequirements ? { processorRequirements: file.processorRequirements as JsonValue } : {}),
+        };
+        const fileMetadata: JsonObject = file.contentUrl.startsWith("https://")
+          ? {
+              ...sharedMetadata,
+              contentSize: file.contentSize as number,
+              sha256: file.sha256 as string,
+              contentUrl: file.contentUrl,
+            }
+          : (helper.copyAsset(
+              { path: file.contentUrl, ...sharedMetadata },
+              {
+                resourceType: version.resourceType,
+                resourceId: version.resourceId,
+                versionId: version.versionId,
+              },
+            ) as JsonObject);
+        return { "@type": "MediaObject", name: file.name, ...fileMetadata };
+      }),
     });
   },
 };
