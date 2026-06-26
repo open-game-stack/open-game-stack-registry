@@ -2,9 +2,9 @@ type: SoftwareApplication
 version: 1.0.0
 datePublished: 2024-11-10
 releaseNotes: First public prototype release.
-files:
+associatedMedia:
   - name: Space Quest 1.0.0 macOS
-    path: /games/space-quest/files/space-quest-1.0.0-macos.txt
+    contentUrl: /games/space-quest/files/space-quest-1.0.0-macos.txt
     encodingFormat: text/plain
     license: https://spdx.org/licenses/MIT.html
     operatingSystem:

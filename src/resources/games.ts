@@ -10,11 +10,11 @@ const GameSchema = z.object({
   type: z.literal("SoftwareApplication"),
   name: z.string().min(1).max(256),
   description: z.string().min(1).max(256),
-  genre: z.string().min(1).max(64),
+  applicationCategory: z.string().min(1).max(64),
   publisher: z.string().min(3).max(256),
   url: PublicUrl,
   image: PublicUrl.optional(),
-  tags: z.array(z.string().min(1).max(64)).min(1).max(8).optional(),
+  keywords: z.array(z.string().min(1).max(64)).min(1).max(8).optional(),
 });
 
 const OS = z.enum(["windows", "macos", "linux", "android", "ios", "web"]);
@@ -22,7 +22,7 @@ const Arch = z.enum(["x86", "x86_64", "arm", "arm64", "wasm"]);
 
 const GameFileSchema = z.object({
   name: z.string().min(1).max(128),
-  path: z.string().min(3).max(256),
+  contentUrl: z.string().min(3).max(256),
   encodingFormat: z.string().min(1).max(128),
   license: HttpsUrl,
   operatingSystem: z.array(OS).min(1).optional(),
@@ -34,7 +34,7 @@ const GameVersionSchema = z.object({
   version: z.string().min(1).max(64),
   datePublished: z.string().min(1).max(64),
   releaseNotes: z.string().min(1).max(256),
-  files: z.array(GameFileSchema).min(1).max(16),
+  associatedMedia: z.array(GameFileSchema).min(1).max(16),
 });
 
 const GameOutputSchema = z.object({
@@ -114,8 +114,8 @@ export const gamesResourceType: ResourceTypeDefinition = {
     return helper.makeJsonLdDocument("SoftwareApplication", {
       name: resource.data.name as string,
       description: resource.data.description as string,
-      applicationCategory: (resource.data.genre as string).toLowerCase(),
-      ...(resource.data.tags ? { keywords: resource.data.tags as string[] } : {}),
+      applicationCategory: (resource.data.applicationCategory as string).toLowerCase(),
+      ...(resource.data.keywords ? { keywords: resource.data.keywords as string[] } : {}),
       publisher: helper.resolveInternalReference(resource.data.publisher as string),
       url: resolvePublicUrl(helper.rootDomain(), resource.data.url as string),
       ...(resource.data.image ? { image: resolvePublicUrl(helper.rootDomain(), resource.data.image as string) } : {}),
@@ -131,9 +131,9 @@ export const gamesResourceType: ResourceTypeDefinition = {
       releaseNotes: version.data.releaseNotes as string,
       isPartOf: helper.toReferenceObject(helper.resourceUrl(), "SoftwareApplication", resource.data.name as string),
       associatedMedia: (
-        version.data.files as Array<{
+        version.data.associatedMedia as Array<{
           name: string;
-          path: string;
+          contentUrl: string;
           encodingFormat: string;
           license: string;
           operatingSystem?: string[];
@@ -144,7 +144,7 @@ export const gamesResourceType: ResourceTypeDefinition = {
         name: file.name,
         ...(helper.copyAsset(
           {
-            path: file.path,
+            path: file.contentUrl,
             encodingFormat: file.encodingFormat,
             license: file.license,
             ...(file.operatingSystem ? { operatingSystem: file.operatingSystem as JsonValue } : {}),

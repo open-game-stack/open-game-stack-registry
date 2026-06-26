@@ -312,33 +312,33 @@ test("incremental sync rewrites only changed outputs and removes deleted outputs
 });
 
 // Schema Evolution Tests
-test("backwards compatibility: old game resource without optional fields parses with new schema", () => {
-  const oldGameData = {
+test("game resource without optional fields parses with schema", () => {
+  const gameData = {
     type: "SoftwareApplication",
     name: "Legacy Game",
     description: "A game from the past",
-    genre: "Adventure",
+    applicationCategory: "Adventure",
     publisher: "/publishers/acme",
     url: "https://example.com/legacy",
   };
 
   const registry = projectDefinition.schemaRegistry;
   assert(registry.games, "games registry must be defined");
-  const result = registry.games.resourceSchema.safeParse(oldGameData);
+  const result = registry.games.resourceSchema.safeParse(gameData);
   assert.equal(result.success, true);
   assert.equal(result.data.name, "Legacy Game");
 });
 
-test("backwards compatibility: old game version without optional fields parses with new schema", () => {
-  const oldVersionData = {
+test("game version without optional fields parses with schema", () => {
+  const versionData = {
     type: "SoftwareApplication",
     version: "1.0.0",
     datePublished: "2023-01-01",
     releaseNotes: "Initial release",
-    files: [
+    associatedMedia: [
       {
         name: "legacy-1.0.0-macos.dmg",
-        path: "legacy-1.0.0-macos.dmg",
+        contentUrl: "/games/legacy/files/legacy-1.0.0-macos.dmg",
         encodingFormat: "application/x-apple-diskimage",
         license: "https://example.com/license",
       },
@@ -348,63 +348,61 @@ test("backwards compatibility: old game version without optional fields parses w
   const registry = projectDefinition.schemaRegistry;
   assert(registry.games, "games registry must be defined");
   assert(registry.games.versionSchema, "games versionSchema must be defined");
-  const result = registry.games.versionSchema.safeParse(oldVersionData);
+  const result = registry.games.versionSchema.safeParse(versionData);
   assert.equal(result.success, true);
   assert.equal(result.data.version, "1.0.0");
 });
 
-test("breaking change detection: adding required field to schema fails old data", () => {
-  // Simulate a new schema that requires 'image' field
+test("breaking change detection: adding required field to schema fails data without it", () => {
   const newSchema = z.object({
     type: z.literal("SoftwareApplication"),
     name: z.string().min(1).max(256),
     description: z.string().min(1).max(256),
-    genre: z.string().min(1).max(64),
+    applicationCategory: z.string().min(1).max(64),
     publisher: z.string().min(3).max(256),
     url: z.string().min(1).max(256),
     image: z.string().min(1).max(256), // Now required
-    tags: z.array(z.string().min(1).max(64)).min(1).max(8).optional(),
+    keywords: z.array(z.string().min(1).max(64)).min(1).max(8).optional(),
   });
 
-  const oldGameData = {
+  const gameData = {
     type: "SoftwareApplication",
     name: "Legacy Game",
     description: "A game from the past",
-    genre: "Adventure",
+    applicationCategory: "Adventure",
     publisher: "/publishers/acme",
     url: "https://example.com/legacy",
     // No image field
   };
 
-  const result = newSchema.safeParse(oldGameData);
+  const result = newSchema.safeParse(gameData);
   assert.equal(result.success, false);
   assert.ok(result.error.issues.some((issue) => issue.path.includes("image")));
 });
 
-test("optional field addition: new optional fields don't break old data", () => {
-  // Simulate adding an optional 'rating' field
+test("optional field addition: new optional fields don't break existing data", () => {
   const evolvedSchema = z.object({
     type: z.literal("SoftwareApplication"),
     name: z.string().min(1).max(256),
     description: z.string().min(1).max(256),
-    genre: z.string().min(1).max(64),
+    applicationCategory: z.string().min(1).max(64),
     publisher: z.string().min(3).max(256),
     url: z.string().min(1).max(256),
     image: z.string().min(1).max(256).optional(),
-    tags: z.array(z.string().min(1).max(64)).min(1).max(8).optional(),
-    rating: z.number().min(0).max(5).optional(), // New optional field
+    keywords: z.array(z.string().min(1).max(64)).min(1).max(8).optional(),
+    rating: z.number().min(0).max(5).optional(),
   });
 
-  const oldGameData = {
+  const gameData = {
     type: "SoftwareApplication",
     name: "Legacy Game",
     description: "A game from the past",
-    genre: "Adventure",
+    applicationCategory: "Adventure",
     publisher: "/publishers/acme",
     url: "https://example.com/legacy",
   };
 
-  const result = evolvedSchema.safeParse(oldGameData);
+  const result = evolvedSchema.safeParse(gameData);
   assert.equal(result.success, true);
-  assert.equal(result.data.rating, undefined); // Optional field not present
+  assert.equal(result.data.rating, undefined);
 });
