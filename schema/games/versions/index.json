@@ -116,5 +116,5 @@
     "associatedMedia"
   ],
   "additionalProperties": false,
-  "$id": "https://kmturley.github.io/static-api-json-schema/schema/games/versions"
+  "$id": "https://open-game-stack.github.io/open-game-stack-registry/schema/games/versions"
 }

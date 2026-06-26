@@ -1,12 +1,12 @@
 {
-  "$schema": "https://kmturley.github.io/static-api-json-schema/schema/search-value",
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/search-value",
   "@context": "https://schema.org/",
   "@type": "ItemList",
-  "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name/rac",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name/rac",
   "name": "publishers name rac",
   "about": [
     {
-      "@id": "https://kmturley.github.io/static-api-json-schema/publishers",
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers",
       "@type": "ItemList",
       "name": "publishers collection"
     },
@@ -14,7 +14,7 @@
       "@type": "DefinedTerm",
       "name": "rac",
       "inDefinedTermSet": {
-        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/search/name"
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name"
       }
     }
   ],
@@ -22,7 +22,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://kmturley.github.io/static-api-json-schema/publishers/acme",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/acme",
         "@type": "Organization",
         "name": "Acme Interactive"
       }

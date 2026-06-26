@@ -5,42 +5,42 @@
     {
       "name": "root",
       "path": "/schema/root",
-      "url": "https://kmturley.github.io/static-api-json-schema/schema/root"
+      "url": "https://open-game-stack.github.io/open-game-stack-registry/schema/root"
     },
     {
       "name": "collection",
       "path": "/schema/collection",
-      "url": "https://kmturley.github.io/static-api-json-schema/schema/collection"
+      "url": "https://open-game-stack.github.io/open-game-stack-registry/schema/collection"
     },
     {
       "name": "search-manifest",
       "path": "/schema/search-manifest",
-      "url": "https://kmturley.github.io/static-api-json-schema/schema/search-manifest"
+      "url": "https://open-game-stack.github.io/open-game-stack-registry/schema/search-manifest"
     },
     {
       "name": "search-value",
       "path": "/schema/search-value",
-      "url": "https://kmturley.github.io/static-api-json-schema/schema/search-value"
+      "url": "https://open-game-stack.github.io/open-game-stack-registry/schema/search-value"
     },
     {
       "name": "version",
       "path": "/schema/version",
-      "url": "https://kmturley.github.io/static-api-json-schema/schema/version"
+      "url": "https://open-game-stack.github.io/open-game-stack-registry/schema/version"
     },
     {
       "name": "games-resource",
       "path": "/schema/games",
-      "url": "https://kmturley.github.io/static-api-json-schema/schema/games"
+      "url": "https://open-game-stack.github.io/open-game-stack-registry/schema/games"
     },
     {
       "name": "games-version",
       "path": "/schema/games/versions",
-      "url": "https://kmturley.github.io/static-api-json-schema/schema/games/versions"
+      "url": "https://open-game-stack.github.io/open-game-stack-registry/schema/games/versions"
     },
     {
       "name": "publishers-resource",
       "path": "/schema/publishers",
-      "url": "https://kmturley.github.io/static-api-json-schema/schema/publishers"
+      "url": "https://open-game-stack.github.io/open-game-stack-registry/schema/publishers"
     }
   ]
 }

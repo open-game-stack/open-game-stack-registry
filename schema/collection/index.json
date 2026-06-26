@@ -66,5 +66,5 @@
     "itemListElement"
   ],
   "additionalProperties": false,
-  "$id": "https://kmturley.github.io/static-api-json-schema/schema/collection"
+  "$id": "https://open-game-stack.github.io/open-game-stack-registry/schema/collection"
 }

@@ -1,12 +1,12 @@
 {
-  "$schema": "https://kmturley.github.io/static-api-json-schema/schema/search-manifest",
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/search-manifest",
   "@context": "https://schema.org/",
   "@type": "ItemList",
-  "@id": "https://kmturley.github.io/static-api-json-schema/games/search",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search",
   "name": "games search",
   "about": [
     {
-      "@id": "https://kmturley.github.io/static-api-json-schema/games",
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games",
       "@type": "ItemList",
       "name": "games collection"
     }
@@ -15,7 +15,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://kmturley.github.io/static-api-json-schema/games/search/genre",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/genre",
         "@type": "ItemList",
         "name": "genre"
       }
@@ -23,7 +23,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://kmturley.github.io/static-api-json-schema/games/search/tags",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/tags",
         "@type": "ItemList",
         "name": "tags"
       }
@@ -31,7 +31,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://kmturley.github.io/static-api-json-schema/games/search/name",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name",
         "@type": "ItemList",
         "name": "name"
       }

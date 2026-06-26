@@ -1,12 +1,12 @@
 {
-  "$schema": "https://kmturley.github.io/static-api-json-schema/schema/search-manifest",
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/search-manifest",
   "@context": "https://schema.org/",
   "@type": "ItemList",
-  "@id": "https://kmturley.github.io/static-api-json-schema/games/search/genre",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/genre",
   "name": "games search by genre",
   "about": [
     {
-      "@id": "https://kmturley.github.io/static-api-json-schema/games",
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games",
       "@type": "ItemList",
       "name": "games collection"
     }
@@ -15,7 +15,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://kmturley.github.io/static-api-json-schema/games/search/genre/puzzle",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/genre/puzzle",
         "@type": "ItemList",
         "name": "puzzle"
       }
@@ -23,7 +23,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://kmturley.github.io/static-api-json-schema/games/search/genre/adventure",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/genre/adventure",
         "@type": "ItemList",
         "name": "adventure"
       }

@@ -8,46 +8,46 @@
     <h1>Static API JSON Schema</h1>
     <p>Version 0.1.0</p>
     <h2>Root Index</h2>
-    <p><code>https://kmturley.github.io/static-api-json-schema/</code></p>
+    <p><code>https://open-game-stack.github.io/open-game-stack-registry/</code></p>
     <h3>Example Response</h3>
     <pre><code>{
   &quot;@context&quot;: &quot;https://schema.org/&quot;,
   &quot;@type&quot;: &quot;DataCatalog&quot;,
-  &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema&quot;,
+  &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry&quot;,
   &quot;name&quot;: &quot;Static API JSON Schema&quot;,
   &quot;version&quot;: &quot;0.1.0&quot;,
   &quot;hasPart&quot;: [
     {
-      &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/games&quot;,
+      &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games&quot;,
       &quot;@type&quot;: &quot;ItemList&quot;,
       &quot;name&quot;: &quot;games&quot;
     },
     {
-      &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/publishers&quot;,
+      &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers&quot;,
       &quot;@type&quot;: &quot;ItemList&quot;,
       &quot;name&quot;: &quot;publishers&quot;
     }
   ]
 }</code></pre>
     <h2>Collections</h2>
-    <ul><li><code>https://kmturley.github.io/static-api-json-schema/games</code></li><li><code>https://kmturley.github.io/static-api-json-schema/publishers</code></li></ul>
+    <ul><li><code>https://open-game-stack.github.io/open-game-stack-registry/games</code></li><li><code>https://open-game-stack.github.io/open-game-stack-registry/publishers</code></li></ul>
     
     <h2>games</h2>
     <p>This section describes collection indexes, resource documents, version documents, and search indexes for <code>games</code>.</p>
     
     <h3>Collection Index</h3>
-    <p>Example Request: <code>https://kmturley.github.io/static-api-json-schema/games</code></p>
+    <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/games</code></p>
     <p>Example Response:</p>
     <pre><code>{
   &quot;@context&quot;: &quot;https://schema.org/&quot;,
   &quot;@type&quot;: &quot;ItemList&quot;,
-  &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/games&quot;,
+  &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games&quot;,
   &quot;name&quot;: &quot;games collection&quot;,
   &quot;itemListElement&quot;: [
     {
       &quot;@type&quot;: &quot;ListItem&quot;,
       &quot;item&quot;: {
-        &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/games/lumen-drift&quot;,
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/lumen-drift&quot;,
         &quot;@type&quot;: &quot;SoftwareApplication&quot;,
         &quot;name&quot;: &quot;Lumen Drift&quot;
       }
@@ -55,7 +55,7 @@
     {
       &quot;@type&quot;: &quot;ListItem&quot;,
       &quot;item&quot;: {
-        &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/games/space-quest&quot;,
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/space-quest&quot;,
         &quot;@type&quot;: &quot;SoftwareApplication&quot;,
         &quot;name&quot;: &quot;Space Quest&quot;
       }
@@ -63,7 +63,7 @@
   ]
 }</code></pre>
     <h3>Resource Document</h3>
-    <p>Example Request: <code>https://kmturley.github.io/static-api-json-schema/games/lumen-drift</code></p>
+    <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/games/lumen-drift</code></p>
     <p>Example Response:</p>
     <pre><code>{
   &quot;type&quot;: &quot;SoftwareApplication&quot;,
@@ -79,16 +79,16 @@
   ]
 }</code></pre>
     <h3>Search Manifest</h3>
-    <p>Example Request: <code>https://kmturley.github.io/static-api-json-schema/games/search</code></p>
+    <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/games/search</code></p>
     <p>Example Response:</p>
     <pre><code>{
   &quot;@context&quot;: &quot;https://schema.org/&quot;,
   &quot;@type&quot;: &quot;ItemList&quot;,
-  &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/games/search&quot;,
+  &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/search&quot;,
   &quot;name&quot;: &quot;games search&quot;,
   &quot;about&quot;: [
     {
-      &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/games&quot;,
+      &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games&quot;,
       &quot;@type&quot;: &quot;ItemList&quot;,
       &quot;name&quot;: &quot;games collection&quot;
     }
@@ -97,7 +97,7 @@
     {
       &quot;@type&quot;: &quot;ListItem&quot;,
       &quot;item&quot;: {
-        &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/games/search/genre&quot;,
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/search/genre&quot;,
         &quot;@type&quot;: &quot;ItemList&quot;,
         &quot;name&quot;: &quot;genre&quot;
       }
@@ -105,7 +105,7 @@
     {
       &quot;@type&quot;: &quot;ListItem&quot;,
       &quot;item&quot;: {
-        &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/games/search/tags&quot;,
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/search/tags&quot;,
         &quot;@type&quot;: &quot;ItemList&quot;,
         &quot;name&quot;: &quot;tags&quot;
       }
@@ -113,7 +113,7 @@
     {
       &quot;@type&quot;: &quot;ListItem&quot;,
       &quot;item&quot;: {
-        &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/games/search/name&quot;,
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/search/name&quot;,
         &quot;@type&quot;: &quot;ItemList&quot;,
         &quot;name&quot;: &quot;name&quot;
       }
@@ -121,16 +121,16 @@
   ]
 }</code></pre>
     <h3>Search Value Index</h3>
-    <p>Example Request: <code>https://kmturley.github.io/static-api-json-schema/games/search/genre/puzzle</code></p>
+    <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/games/search/genre/puzzle</code></p>
     <p>Example Response:</p>
     <pre><code>{
   &quot;@context&quot;: &quot;https://schema.org/&quot;,
   &quot;@type&quot;: &quot;ItemList&quot;,
-  &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/games/search/genre/puzzle&quot;,
+  &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/search/genre/puzzle&quot;,
   &quot;name&quot;: &quot;games genre puzzle&quot;,
   &quot;about&quot;: [
     {
-      &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/games&quot;,
+      &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games&quot;,
       &quot;@type&quot;: &quot;ItemList&quot;,
       &quot;name&quot;: &quot;games collection&quot;
     },
@@ -138,7 +138,7 @@
       &quot;@type&quot;: &quot;DefinedTerm&quot;,
       &quot;name&quot;: &quot;puzzle&quot;,
       &quot;inDefinedTermSet&quot;: {
-        &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/games/search/genre&quot;
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/search/genre&quot;
       }
     }
   ],
@@ -146,7 +146,7 @@
     {
       &quot;@type&quot;: &quot;ListItem&quot;,
       &quot;item&quot;: {
-        &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/games/lumen-drift&quot;,
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/lumen-drift&quot;,
         &quot;@type&quot;: &quot;SoftwareApplication&quot;,
         &quot;name&quot;: &quot;Lumen Drift&quot;
       }
@@ -157,18 +157,18 @@
     <p>This section describes collection indexes, resource documents, version documents, and search indexes for <code>publishers</code>.</p>
     
     <h3>Collection Index</h3>
-    <p>Example Request: <code>https://kmturley.github.io/static-api-json-schema/publishers</code></p>
+    <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/publishers</code></p>
     <p>Example Response:</p>
     <pre><code>{
   &quot;@context&quot;: &quot;https://schema.org/&quot;,
   &quot;@type&quot;: &quot;ItemList&quot;,
-  &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/publishers&quot;,
+  &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers&quot;,
   &quot;name&quot;: &quot;publishers collection&quot;,
   &quot;itemListElement&quot;: [
     {
       &quot;@type&quot;: &quot;ListItem&quot;,
       &quot;item&quot;: {
-        &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/publishers/acme&quot;,
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/acme&quot;,
         &quot;@type&quot;: &quot;Organization&quot;,
         &quot;name&quot;: &quot;Acme Interactive&quot;
       }
@@ -176,7 +176,7 @@
     {
       &quot;@type&quot;: &quot;ListItem&quot;,
       &quot;item&quot;: {
-        &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/publishers/lighthouse&quot;,
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/lighthouse&quot;,
         &quot;@type&quot;: &quot;Organization&quot;,
         &quot;name&quot;: &quot;Lighthouse Studio&quot;
       }
@@ -184,7 +184,7 @@
   ]
 }</code></pre>
     <h3>Resource Document</h3>
-    <p>Example Request: <code>https://kmturley.github.io/static-api-json-schema/publishers/acme</code></p>
+    <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/publishers/acme</code></p>
     <p>Example Response:</p>
     <pre><code>{
   &quot;type&quot;: &quot;Organization&quot;,
@@ -193,16 +193,16 @@
   &quot;url&quot;: &quot;https://www.acmeinteractive.example.com&quot;
 }</code></pre>
     <h3>Search Manifest</h3>
-    <p>Example Request: <code>https://kmturley.github.io/static-api-json-schema/publishers/search</code></p>
+    <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/publishers/search</code></p>
     <p>Example Response:</p>
     <pre><code>{
   &quot;@context&quot;: &quot;https://schema.org/&quot;,
   &quot;@type&quot;: &quot;ItemList&quot;,
-  &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/publishers/search&quot;,
+  &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/search&quot;,
   &quot;name&quot;: &quot;publishers search&quot;,
   &quot;about&quot;: [
     {
-      &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/publishers&quot;,
+      &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers&quot;,
       &quot;@type&quot;: &quot;ItemList&quot;,
       &quot;name&quot;: &quot;publishers collection&quot;
     }
@@ -211,7 +211,7 @@
     {
       &quot;@type&quot;: &quot;ListItem&quot;,
       &quot;item&quot;: {
-        &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/publishers/search/name&quot;,
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name&quot;,
         &quot;@type&quot;: &quot;ItemList&quot;,
         &quot;name&quot;: &quot;name&quot;
       }
@@ -219,16 +219,16 @@
   ]
 }</code></pre>
     <h3>Search Value Index</h3>
-    <p>Example Request: <code>https://kmturley.github.io/static-api-json-schema/publishers/search/name/acme-interactive</code></p>
+    <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name/acme-interactive</code></p>
     <p>Example Response:</p>
     <pre><code>{
   &quot;@context&quot;: &quot;https://schema.org/&quot;,
   &quot;@type&quot;: &quot;ItemList&quot;,
-  &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/publishers/search/name/acme-interactive&quot;,
+  &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name/acme-interactive&quot;,
   &quot;name&quot;: &quot;publishers name Acme Interactive&quot;,
   &quot;about&quot;: [
     {
-      &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/publishers&quot;,
+      &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers&quot;,
       &quot;@type&quot;: &quot;ItemList&quot;,
       &quot;name&quot;: &quot;publishers collection&quot;
     },
@@ -236,7 +236,7 @@
       &quot;@type&quot;: &quot;DefinedTerm&quot;,
       &quot;name&quot;: &quot;Acme Interactive&quot;,
       &quot;inDefinedTermSet&quot;: {
-        &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/publishers/search/name&quot;
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name&quot;
       }
     }
   ],
@@ -244,7 +244,7 @@
     {
       &quot;@type&quot;: &quot;ListItem&quot;,
       &quot;item&quot;: {
-        &quot;@id&quot;: &quot;https://kmturley.github.io/static-api-json-schema/publishers/acme&quot;,
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/acme&quot;,
         &quot;@type&quot;: &quot;Organization&quot;,
         &quot;name&quot;: &quot;Acme Interactive&quot;
       }

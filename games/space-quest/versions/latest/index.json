@@ -1,14 +1,14 @@
 {
-  "$schema": "https://kmturley.github.io/static-api-json-schema/schema/games/versions",
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/games/versions",
   "@context": "https://schema.org/",
   "@type": "SoftwareApplication",
-  "@id": "https://kmturley.github.io/static-api-json-schema/games/space-quest/versions/1.1.0",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest/versions/1.1.0",
   "name": "Space Quest 1.1.0",
   "version": "1.1.0",
   "datePublished": "2025-02-20",
   "releaseNotes": "Improves performance and adds a new mission briefing.",
   "isPartOf": {
-    "@id": "https://kmturley.github.io/static-api-json-schema/games/space-quest",
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest",
     "@type": "SoftwareApplication",
     "name": "Space Quest"
   },
@@ -27,7 +27,7 @@
       ],
       "contentSize": 44,
       "sha256": "a2d40a411a2036e8f8caccc3bbc1ab21b6abaa78b5c721095404d2f9f23fec84",
-      "contentUrl": "https://kmturley.github.io/static-api-json-schema/games/space-quest/versions/1.1.0/assets/space-quest-1.1.0-macos.txt"
+      "contentUrl": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest/versions/1.1.0/assets/space-quest-1.1.0-macos.txt"
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "$schema": "https://kmturley.github.io/static-api-json-schema/schema/search-manifest",
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/search-manifest",
   "@context": "https://schema.org/",
   "@type": "ItemList",
-  "@id": "https://kmturley.github.io/static-api-json-schema/games/search/tags",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/tags",
   "name": "games search by tags",
   "about": [
     {
-      "@id": "https://kmturley.github.io/static-api-json-schema/games",
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games",
       "@type": "ItemList",
       "name": "games collection"
     }
@@ -15,7 +15,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://kmturley.github.io/static-api-json-schema/games/search/tags/puzzle",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/tags/puzzle",
         "@type": "ItemList",
         "name": "puzzle"
       }
@@ -23,7 +23,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://kmturley.github.io/static-api-json-schema/games/search/tags/platformer",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/tags/platformer",
         "@type": "ItemList",
         "name": "platformer"
       }
@@ -31,7 +31,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://kmturley.github.io/static-api-json-schema/games/search/tags/sci-fi",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/tags/sci-fi",
         "@type": "ItemList",
         "name": "sci-fi"
       }
@@ -39,7 +39,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://kmturley.github.io/static-api-json-schema/games/search/tags/single-player",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/tags/single-player",
         "@type": "ItemList",
         "name": "single-player"
       }

@@ -57,5 +57,5 @@
     "hasPart"
   ],
   "additionalProperties": false,
-  "$id": "https://kmturley.github.io/static-api-json-schema/schema/root"
+  "$id": "https://open-game-stack.github.io/open-game-stack-registry/schema/root"
 }

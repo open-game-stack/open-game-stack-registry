@@ -1,8 +1,8 @@
 {
-  "$schema": "https://kmturley.github.io/static-api-json-schema/schema/games",
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/games",
   "@context": "https://schema.org/",
   "@type": "SoftwareApplication",
-  "@id": "https://kmturley.github.io/static-api-json-schema/games/space-quest",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest",
   "name": "Space Quest",
   "description": "Narrative exploration game used as the sample static API resource.",
   "applicationCategory": "adventure",
@@ -11,26 +11,26 @@
     "single-player"
   ],
   "publisher": {
-    "@id": "https://kmturley.github.io/static-api-json-schema/publishers/acme",
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/acme",
     "@type": "Organization",
     "name": "Acme Interactive"
   },
-  "url": "https://kmturley.github.io/static-api-json-schema/games/space-quest",
-  "image": "https://kmturley.github.io/static-api-json-schema/games/space-quest/index.jpg",
+  "url": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest",
+  "image": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest/index.jpg",
   "versions": [
     {
-      "@id": "https://kmturley.github.io/static-api-json-schema/games/space-quest/versions/1.1.0",
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest/versions/1.1.0",
       "@type": "SoftwareApplication",
       "name": "Space Quest 1.1.0"
     },
     {
-      "@id": "https://kmturley.github.io/static-api-json-schema/games/space-quest/versions/1.0.0",
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest/versions/1.0.0",
       "@type": "SoftwareApplication",
       "name": "Space Quest 1.0.0"
     }
   ],
   "latestVersion": {
-    "@id": "https://kmturley.github.io/static-api-json-schema/games/space-quest/versions/1.1.0",
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest/versions/1.1.0",
     "@type": "SoftwareApplication",
     "name": "Space Quest 1.1.0"
   }

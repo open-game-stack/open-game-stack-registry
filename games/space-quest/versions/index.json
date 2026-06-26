@@ -1,12 +1,12 @@
 {
-  "$schema": "https://kmturley.github.io/static-api-json-schema/schema/version",
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/version",
   "@context": "https://schema.org/",
   "@type": "ItemList",
-  "@id": "https://kmturley.github.io/static-api-json-schema/games/space-quest/versions",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest/versions",
   "name": "space-quest versions",
   "about": [
     {
-      "@id": "https://kmturley.github.io/static-api-json-schema/games/space-quest",
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest",
       "@type": "SoftwareApplication",
       "name": "Space Quest"
     }
@@ -15,7 +15,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://kmturley.github.io/static-api-json-schema/games/space-quest/versions/1.1.0",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest/versions/1.1.0",
         "@type": "SoftwareApplication",
         "name": "Space Quest 1.1.0"
       }
@@ -23,7 +23,7 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://kmturley.github.io/static-api-json-schema/games/space-quest/versions/1.0.0",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest/versions/1.0.0",
         "@type": "SoftwareApplication",
         "name": "Space Quest 1.0.0"
       }
