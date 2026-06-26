@@ -19,7 +19,9 @@ jobs:
         run: npm ci
 
       - name: Build and run code
-        run: npm start
+        run: npm run build && npm start
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4

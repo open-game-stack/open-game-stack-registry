@@ -16,7 +16,7 @@ jobs:
         run: npm ci
 
       - name: Audit
-        run: npm audit
+        run: npm audit --audit-level high
 
       - name: Lint
         run: npm run lint
@@ -25,4 +25,6 @@ jobs:
         run: npm test
 
       - name: Build
-        run: npm start
+        run: npm run build && npm start
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
