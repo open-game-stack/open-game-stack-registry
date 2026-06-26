@@ -12,7 +12,7 @@ export const projectDefinition: ProjectDefinition = {
   config: {
     apiName: "Static API JSON Schema",
     apiVersion: "0.1.0",
-    rootDomain: "https://kmturley.github.io/static-api-json-schema",
+    rootDomain: "https://open-game-stack.github.io/open-game-stack-registry",
     resourcesRoot: "resources",
     resourceTypes: {
       games: {
