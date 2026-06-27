@@ -15,6 +15,30 @@
     {
       "@type": "ListItem",
       "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/0",
+        "@type": "ItemList",
+        "name": "0"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/1",
+        "@type": "ItemList",
+        "name": "1"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/2",
+        "@type": "ItemList",
+        "name": "2"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
         "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/a",
         "@type": "ItemList",
         "name": "a"
@@ -47,9 +71,17 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/f",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/g",
         "@type": "ItemList",
-        "name": "f"
+        "name": "g"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/h",
+        "@type": "ItemList",
+        "name": "h"
       }
     },
     {
@@ -58,6 +90,14 @@
         "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/i",
         "@type": "ItemList",
         "name": "i"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/k",
+        "@type": "ItemList",
+        "name": "k"
       }
     },
     {
@@ -87,17 +127,17 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/p",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/o",
         "@type": "ItemList",
-        "name": "p"
+        "name": "o"
       }
     },
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/q",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/p",
         "@type": "ItemList",
-        "name": "q"
+        "name": "p"
       }
     },
     {
@@ -130,6 +170,46 @@
         "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/u",
         "@type": "ItemList",
         "name": "u"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/v",
+        "@type": "ItemList",
+        "name": "v"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/w",
+        "@type": "ItemList",
+        "name": "w"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/x",
+        "@type": "ItemList",
+        "name": "x"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/y",
+        "@type": "ItemList",
+        "name": "y"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/z",
+        "@type": "ItemList",
+        "name": "z"
       }
     }
   ]

@@ -22,9 +22,17 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/astromenace",
         "@type": "SoftwareApplication",
-        "name": "Space Quest"
+        "name": "AstroMenace"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/cdogs-sdl",
+        "@type": "SoftwareApplication",
+        "name": "C-Dogs SDL"
       }
     }
   ]

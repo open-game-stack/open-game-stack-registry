@@ -22,9 +22,25 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/lumen-drift",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/cdogs-sdl",
         "@type": "SoftwareApplication",
-        "name": "Lumen Drift"
+        "name": "C-Dogs SDL"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/endless-sky",
+        "@type": "SoftwareApplication",
+        "name": "Endless Sky"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/veloren",
+        "@type": "SoftwareApplication",
+        "name": "Veloren"
       }
     }
   ]

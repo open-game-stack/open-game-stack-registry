@@ -1,0 +1,36 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/games",
+  "@context": "https://schema.org/",
+  "@type": "SoftwareApplication",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/endless-sky",
+  "name": "Endless Sky",
+  "description": "2D space exploration, trading, and combat sandbox game inspired by Escape Velocity.",
+  "applicationCategory": "simulation",
+  "keywords": [
+    "space",
+    "exploration",
+    "trading",
+    "rpg",
+    "2d",
+    "sandbox"
+  ],
+  "publisher": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/endless-sky-community",
+    "@type": "Organization",
+    "name": "Endless Sky Community"
+  },
+  "url": "https://github.com/endless-sky/endless-sky",
+  "image": "https://open-game-stack.github.io/open-game-stack-registry/games/endless-sky/index.jpg",
+  "versions": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/endless-sky/versions/0.10.10",
+      "@type": "SoftwareApplication",
+      "name": "Endless Sky 0.10.10"
+    }
+  ],
+  "latestVersion": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/endless-sky/versions/0.10.10",
+    "@type": "SoftwareApplication",
+    "name": "Endless Sky 0.10.10"
+  }
+}

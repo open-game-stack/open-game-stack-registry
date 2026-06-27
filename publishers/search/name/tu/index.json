@@ -22,9 +22,9 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/lighthouse",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/supertux-team",
         "@type": "Organization",
-        "name": "Lighthouse Studio"
+        "name": "SuperTux Team"
       }
     }
   ]

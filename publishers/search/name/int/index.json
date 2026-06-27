@@ -22,9 +22,9 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/acme",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/castle-print",
         "@type": "Organization",
-        "name": "Acme Interactive"
+        "name": "Castle-Print"
       }
     }
   ]

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/games",
+  "@context": "https://schema.org/",
+  "@type": "SoftwareApplication",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/supertux",
+  "name": "SuperTux",
+  "description": "Classic 2D side-scrolling platformer heavily inspired by the classic Super Mario Bros games.",
+  "applicationCategory": "platformer",
+  "keywords": [
+    "2d",
+    "platformer",
+    "side-scroller",
+    "retro",
+    "casual",
+    "singleplayer"
+  ],
+  "publisher": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/supertux-team",
+    "@type": "Organization",
+    "name": "SuperTux Team"
+  },
+  "url": "https://github.com/SuperTux/supertux",
+  "image": "https://open-game-stack.github.io/open-game-stack-registry/games/supertux/index.jpg",
+  "versions": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/supertux/versions/0.6.3",
+      "@type": "SoftwareApplication",
+      "name": "SuperTux 0.6.3"
+    }
+  ],
+  "latestVersion": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/supertux/versions/0.6.3",
+    "@type": "SoftwareApplication",
+    "name": "SuperTux 0.6.3"
+  }
+}

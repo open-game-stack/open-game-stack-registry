@@ -22,9 +22,25 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/astromenace",
         "@type": "SoftwareApplication",
-        "name": "Space Quest"
+        "name": "AstroMenace"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/openra",
+        "@type": "SoftwareApplication",
+        "name": "OpenRA"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/warzone-2100",
+        "@type": "SoftwareApplication",
+        "name": "Warzone 2100"
       }
     }
   ]

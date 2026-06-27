@@ -22,9 +22,49 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/lighthouse",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/castle-print",
         "@type": "Organization",
-        "name": "Lighthouse Studio"
+        "name": "Castle-Print"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/cdogs-sdl-community",
+        "@type": "Organization",
+        "name": "C-Dogs SDL Community"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/endless-sky-community",
+        "@type": "Organization",
+        "name": "Endless Sky Community"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/pioneer-space-sim",
+        "@type": "Organization",
+        "name": "Pioneer Space Sim Team"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/revolutionary-games",
+        "@type": "Organization",
+        "name": "Revolutionary Games"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/supertux-team",
+        "@type": "Organization",
+        "name": "SuperTux Team"
       }
     }
   ]

@@ -1,0 +1,74 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/games/versions",
+  "@context": "https://schema.org/",
+  "@type": "SoftwareApplication",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/openra/versions/2023.10.10",
+  "name": "OpenRA 20231010",
+  "version": "20231010",
+  "datePublished": "2023-10-10",
+  "releaseNotes": "Improves pathfinding, updates engine compatibility, and fixes several multiplayer desync issues.",
+  "isPartOf": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/openra",
+    "@type": "SoftwareApplication",
+    "name": "OpenRA"
+  },
+  "associatedMedia": [
+    {
+      "@type": "MediaObject",
+      "name": "OpenRA 20231010 Windows 64-bit",
+      "encodingFormat": "application/vnd.microsoft.portable-executable",
+      "license": "https://spdx.org/licenses/GPL-3.0.html",
+      "operatingSystem": [
+        "windows"
+      ],
+      "processorRequirements": [
+        "x86_64"
+      ],
+      "contentSize": 51051481,
+      "sha256": "0a993382e20651b41e06ceb9324402454e869731cd7c970a82b08c81f47240fd",
+      "contentUrl": "https://github.com/OpenRA/OpenRA/releases/download/release-20231010/OpenRA-release-20231010-x64.exe"
+    },
+    {
+      "@type": "MediaObject",
+      "name": "OpenRA 20231010 macOS",
+      "encodingFormat": "application/x-apple-diskimage",
+      "license": "https://spdx.org/licenses/GPL-3.0.html",
+      "operatingSystem": [
+        "macos"
+      ],
+      "contentSize": 128284548,
+      "sha256": "3b0c01a72a92c1210e31ec94b4ddb9b9770ae58a6ec5424bf215006eb1ac048c",
+      "contentUrl": "https://github.com/OpenRA/OpenRA/releases/download/release-20231010/OpenRA-release-20231010.dmg"
+    },
+    {
+      "@type": "MediaObject",
+      "name": "OpenRA 20231010 Linux Tiberian Dawn",
+      "encodingFormat": "application/x-iso9660-appimage",
+      "license": "https://spdx.org/licenses/GPL-3.0.html",
+      "operatingSystem": [
+        "linux"
+      ],
+      "processorRequirements": [
+        "x86_64"
+      ],
+      "contentSize": 48227520,
+      "sha256": "64f1200ecc66342ac3bb277c4261a7f209206dc80a8df971a364964d33243953",
+      "contentUrl": "https://github.com/OpenRA/OpenRA/releases/download/release-20231010/OpenRA-Tiberian-Dawn-x86_64.AppImage"
+    },
+    {
+      "@type": "MediaObject",
+      "name": "OpenRA 20231010 Linux Red Alert",
+      "encodingFormat": "application/x-iso9660-appimage",
+      "license": "https://spdx.org/licenses/GPL-3.0.html",
+      "operatingSystem": [
+        "linux"
+      ],
+      "processorRequirements": [
+        "x86_64"
+      ],
+      "contentSize": 46949568,
+      "sha256": "f60e140143c66f4b0185c16f89a582aae3091420146edf51cf9689bb72cca791",
+      "contentUrl": "https://github.com/OpenRA/OpenRA/releases/download/release-20231010/OpenRA-Red-Alert-x86_64.AppImage"
+    }
+  ]
+}

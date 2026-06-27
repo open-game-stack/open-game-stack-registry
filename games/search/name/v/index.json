@@ -1,0 +1,39 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/search-value",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/v",
+  "name": "games name v",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games",
+      "@type": "ItemList",
+      "name": "games collection"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "v",
+      "inDefinedTermSet": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name"
+      }
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/thrive",
+        "@type": "SoftwareApplication",
+        "name": "Thrive"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/veloren",
+        "@type": "SoftwareApplication",
+        "name": "Veloren"
+      }
+    }
+  ]
+}

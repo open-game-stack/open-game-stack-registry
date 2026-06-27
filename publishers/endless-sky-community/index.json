@@ -1,0 +1,9 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/publishers",
+  "@context": "https://schema.org/",
+  "@type": "Organization",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/endless-sky-community",
+  "name": "Endless Sky Community",
+  "description": "Open-source community maintaining the Endless Sky space sandbox game.",
+  "url": "https://github.com/endless-sky"
+}

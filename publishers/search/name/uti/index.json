@@ -1,0 +1,31 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/search-value",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name/uti",
+  "name": "publishers name uti",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers",
+      "@type": "ItemList",
+      "name": "publishers collection"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "uti",
+      "inDefinedTermSet": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name"
+      }
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/revolutionary-games",
+        "@type": "Organization",
+        "name": "Revolutionary Games"
+      }
+    }
+  ]
+}

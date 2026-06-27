@@ -22,9 +22,17 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/lighthouse",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/pioneer-space-sim",
         "@type": "Organization",
-        "name": "Lighthouse Studio"
+        "name": "Pioneer Space Sim Team"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/revolutionary-games",
+        "@type": "Organization",
+        "name": "Revolutionary Games"
       }
     }
   ]

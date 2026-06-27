@@ -1,0 +1,9 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/publishers",
+  "@context": "https://schema.org/",
+  "@type": "Organization",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/cdogs-sdl-community",
+  "name": "C-Dogs SDL Community",
+  "description": "Open-source community maintaining the C-Dogs SDL classic arcade shooter.",
+  "url": "https://github.com/cxong"
+}

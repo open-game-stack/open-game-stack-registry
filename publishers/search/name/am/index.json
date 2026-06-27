@@ -1,0 +1,47 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/search-value",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name/am",
+  "name": "publishers name am",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers",
+      "@type": "ItemList",
+      "name": "publishers collection"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "am",
+      "inDefinedTermSet": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name"
+      }
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/pioneer-space-sim",
+        "@type": "Organization",
+        "name": "Pioneer Space Sim Team"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/revolutionary-games",
+        "@type": "Organization",
+        "name": "Revolutionary Games"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/supertux-team",
+        "@type": "Organization",
+        "name": "SuperTux Team"
+      }
+    }
+  ]
+}

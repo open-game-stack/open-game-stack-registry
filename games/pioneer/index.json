@@ -1,0 +1,35 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/games",
+  "@context": "https://schema.org/",
+  "@type": "SoftwareApplication",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/pioneer",
+  "name": "Pioneer",
+  "description": "A space adventure, exploration, and trade simulator set in a massive, realistic sandbox galaxy.",
+  "applicationCategory": "simulation",
+  "keywords": [
+    "space-sim",
+    "astronomy",
+    "exploration",
+    "trading",
+    "sandbox"
+  ],
+  "publisher": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/pioneer-space-sim",
+    "@type": "Organization",
+    "name": "Pioneer Space Sim Team"
+  },
+  "url": "https://github.com/pioneerspacesim/pioneer",
+  "image": "https://open-game-stack.github.io/open-game-stack-registry/games/pioneer/index.jpg",
+  "versions": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/pioneer/versions/2026.2.3",
+      "@type": "SoftwareApplication",
+      "name": "Pioneer 2026.2.3"
+    }
+  ],
+  "latestVersion": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/pioneer/versions/2026.2.3",
+    "@type": "SoftwareApplication",
+    "name": "Pioneer 2026.2.3"
+  }
+}

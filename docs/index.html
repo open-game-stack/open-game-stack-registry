@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Static API JSON Schema Docs</title>
+    <title>Open Game Stack Registry Docs</title>
   </head>
   <body>
-    <h1>Static API JSON Schema</h1>
+    <h1>Open Game Stack Registry</h1>
     <p>Version 0.1.0</p>
     <h2>Root Index</h2>
     <p><code>https://open-game-stack.github.io/open-game-stack-registry/</code></p>
@@ -14,7 +14,7 @@
   &quot;@context&quot;: &quot;https://schema.org/&quot;,
   &quot;@type&quot;: &quot;DataCatalog&quot;,
   &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry&quot;,
-  &quot;name&quot;: &quot;Static API JSON Schema&quot;,
+  &quot;name&quot;: &quot;Open Game Stack Registry&quot;,
   &quot;version&quot;: &quot;0.1.0&quot;,
   &quot;hasPart&quot;: [
     {
@@ -47,36 +47,105 @@
     {
       &quot;@type&quot;: &quot;ListItem&quot;,
       &quot;item&quot;: {
-        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/lumen-drift&quot;,
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/astromenace&quot;,
         &quot;@type&quot;: &quot;SoftwareApplication&quot;,
-        &quot;name&quot;: &quot;Lumen Drift&quot;
+        &quot;name&quot;: &quot;AstroMenace&quot;
       }
     },
     {
       &quot;@type&quot;: &quot;ListItem&quot;,
       &quot;item&quot;: {
-        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/space-quest&quot;,
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/cdogs-sdl&quot;,
         &quot;@type&quot;: &quot;SoftwareApplication&quot;,
-        &quot;name&quot;: &quot;Space Quest&quot;
+        &quot;name&quot;: &quot;C-Dogs SDL&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;ListItem&quot;,
+      &quot;item&quot;: {
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/endless-sky&quot;,
+        &quot;@type&quot;: &quot;SoftwareApplication&quot;,
+        &quot;name&quot;: &quot;Endless Sky&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;ListItem&quot;,
+      &quot;item&quot;: {
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/openra&quot;,
+        &quot;@type&quot;: &quot;SoftwareApplication&quot;,
+        &quot;name&quot;: &quot;OpenRA&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;ListItem&quot;,
+      &quot;item&quot;: {
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/pioneer&quot;,
+        &quot;@type&quot;: &quot;SoftwareApplication&quot;,
+        &quot;name&quot;: &quot;Pioneer&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;ListItem&quot;,
+      &quot;item&quot;: {
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/supertux&quot;,
+        &quot;@type&quot;: &quot;SoftwareApplication&quot;,
+        &quot;name&quot;: &quot;SuperTux&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;ListItem&quot;,
+      &quot;item&quot;: {
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/thrive&quot;,
+        &quot;@type&quot;: &quot;SoftwareApplication&quot;,
+        &quot;name&quot;: &quot;Thrive&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;ListItem&quot;,
+      &quot;item&quot;: {
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/veloren&quot;,
+        &quot;@type&quot;: &quot;SoftwareApplication&quot;,
+        &quot;name&quot;: &quot;Veloren&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;ListItem&quot;,
+      &quot;item&quot;: {
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/warzone-2100&quot;,
+        &quot;@type&quot;: &quot;SoftwareApplication&quot;,
+        &quot;name&quot;: &quot;Warzone 2100&quot;
       }
     }
   ]
 }</code></pre>
     <h3>Resource Document</h3>
-    <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/games/lumen-drift</code></p>
+    <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/games/astromenace</code></p>
     <p>Example Response:</p>
     <pre><code>{
   &quot;type&quot;: &quot;SoftwareApplication&quot;,
-  &quot;name&quot;: &quot;Lumen Drift&quot;,
-  &quot;description&quot;: &quot;Atmospheric puzzle-platform prototype included to demonstrate collection and search output.&quot;,
-  &quot;applicationCategory&quot;: &quot;puzzle&quot;,
-  &quot;publisher&quot;: &quot;/publishers/lighthouse&quot;,
-  &quot;url&quot;: &quot;/games/lumen-drift&quot;,
-  &quot;image&quot;: &quot;/games/lumen-drift/index.jpg&quot;,
+  &quot;name&quot;: &quot;AstroMenace&quot;,
+  &quot;description&quot;: &quot;Visual-forward 3D space scrolling shoot-em-up featuring deep weapon and ship upgrade customization.&quot;,
+  &quot;applicationCategory&quot;: &quot;action&quot;,
+  &quot;publisher&quot;: &quot;/publishers/viewizard&quot;,
+  &quot;url&quot;: &quot;https://github.com/viewizard/astromenace&quot;,
+  &quot;image&quot;: &quot;/games/astromenace/index.jpg&quot;,
   &quot;keywords&quot;: [
-    &quot;puzzle&quot;,
-    &quot;platformer&quot;
+    &quot;space-shooter&quot;,
+    &quot;shmup&quot;,
+    &quot;arcade&quot;,
+    &quot;3d&quot;,
+    &quot;action&quot;,
+    &quot;singleplayer&quot;
   ]
+}</code></pre>
+    <h3>Version Document</h3>
+    <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/games/astromenace/versions/1.3.2</code></p>
+    <p>Example Response:</p>
+    <pre><code>{
+  &quot;@context&quot;: &quot;https://schema.org/&quot;,
+  &quot;@type&quot;: &quot;SoftwareApplication&quot;,
+  &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/games/astromenace/versions/1.3.2&quot;,
+  &quot;version&quot;: &quot;1.3.2&quot;
 }</code></pre>
     <h3>Search Manifest</h3>
     <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/games/search</code></p>
@@ -135,29 +204,93 @@
     {
       &quot;@type&quot;: &quot;ListItem&quot;,
       &quot;item&quot;: {
-        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/acme&quot;,
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/castle-print&quot;,
         &quot;@type&quot;: &quot;Organization&quot;,
-        &quot;name&quot;: &quot;Acme Interactive&quot;
+        &quot;name&quot;: &quot;Castle-Print&quot;
       }
     },
     {
       &quot;@type&quot;: &quot;ListItem&quot;,
       &quot;item&quot;: {
-        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/lighthouse&quot;,
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/cdogs-sdl-community&quot;,
         &quot;@type&quot;: &quot;Organization&quot;,
-        &quot;name&quot;: &quot;Lighthouse Studio&quot;
+        &quot;name&quot;: &quot;C-Dogs SDL Community&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;ListItem&quot;,
+      &quot;item&quot;: {
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/endless-sky-community&quot;,
+        &quot;@type&quot;: &quot;Organization&quot;,
+        &quot;name&quot;: &quot;Endless Sky Community&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;ListItem&quot;,
+      &quot;item&quot;: {
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/openra-project&quot;,
+        &quot;@type&quot;: &quot;Organization&quot;,
+        &quot;name&quot;: &quot;OpenRA Project&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;ListItem&quot;,
+      &quot;item&quot;: {
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/pioneer-space-sim&quot;,
+        &quot;@type&quot;: &quot;Organization&quot;,
+        &quot;name&quot;: &quot;Pioneer Space Sim Team&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;ListItem&quot;,
+      &quot;item&quot;: {
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/revolutionary-games&quot;,
+        &quot;@type&quot;: &quot;Organization&quot;,
+        &quot;name&quot;: &quot;Revolutionary Games&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;ListItem&quot;,
+      &quot;item&quot;: {
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/supertux-team&quot;,
+        &quot;@type&quot;: &quot;Organization&quot;,
+        &quot;name&quot;: &quot;SuperTux Team&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;ListItem&quot;,
+      &quot;item&quot;: {
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/veloren-community&quot;,
+        &quot;@type&quot;: &quot;Organization&quot;,
+        &quot;name&quot;: &quot;Veloren Community&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;ListItem&quot;,
+      &quot;item&quot;: {
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/viewizard&quot;,
+        &quot;@type&quot;: &quot;Organization&quot;,
+        &quot;name&quot;: &quot;Viewizard&quot;
+      }
+    },
+    {
+      &quot;@type&quot;: &quot;ListItem&quot;,
+      &quot;item&quot;: {
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/warzone-2100-project&quot;,
+        &quot;@type&quot;: &quot;Organization&quot;,
+        &quot;name&quot;: &quot;Warzone 2100 Project&quot;
       }
     }
   ]
 }</code></pre>
     <h3>Resource Document</h3>
-    <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/publishers/acme</code></p>
+    <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/publishers/castle-print</code></p>
     <p>Example Response:</p>
     <pre><code>{
   &quot;type&quot;: &quot;Organization&quot;,
-  &quot;name&quot;: &quot;Acme Interactive&quot;,
-  &quot;description&quot;: &quot;Independent publisher focused on polished retro-inspired releases.&quot;,
-  &quot;url&quot;: &quot;https://www.acmeinteractive.example.com&quot;
+  &quot;name&quot;: &quot;Castle-Print&quot;,
+  &quot;description&quot;: &quot;Indie studio behind Tanks of Freedom, a turn-based tactical strategy game.&quot;,
+  &quot;url&quot;: &quot;https://github.com/w84death&quot;
 }</code></pre>
     <h3>Search Manifest</h3>
     <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/publishers/search</code></p>
@@ -186,13 +319,13 @@
   ]
 }</code></pre>
     <h3>Search Value Index</h3>
-    <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name/acme-interactive</code></p>
+    <p>Example Request: <code>https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name/castle-print</code></p>
     <p>Example Response:</p>
     <pre><code>{
   &quot;@context&quot;: &quot;https://schema.org/&quot;,
   &quot;@type&quot;: &quot;ItemList&quot;,
-  &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name/acme-interactive&quot;,
-  &quot;name&quot;: &quot;publishers name Acme Interactive&quot;,
+  &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name/castle-print&quot;,
+  &quot;name&quot;: &quot;publishers name Castle-Print&quot;,
   &quot;about&quot;: [
     {
       &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers&quot;,
@@ -201,7 +334,7 @@
     },
     {
       &quot;@type&quot;: &quot;DefinedTerm&quot;,
-      &quot;name&quot;: &quot;Acme Interactive&quot;,
+      &quot;name&quot;: &quot;Castle-Print&quot;,
       &quot;inDefinedTermSet&quot;: {
         &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name&quot;
       }
@@ -211,9 +344,9 @@
     {
       &quot;@type&quot;: &quot;ListItem&quot;,
       &quot;item&quot;: {
-        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/acme&quot;,
+        &quot;@id&quot;: &quot;https://open-game-stack.github.io/open-game-stack-registry/publishers/castle-print&quot;,
         &quot;@type&quot;: &quot;Organization&quot;,
-        &quot;name&quot;: &quot;Acme Interactive&quot;
+        &quot;name&quot;: &quot;Castle-Print&quot;
       }
     }
   ]

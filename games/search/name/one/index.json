@@ -1,0 +1,39 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/search-value",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/one",
+  "name": "games name one",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games",
+      "@type": "ItemList",
+      "name": "games collection"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "one",
+      "inDefinedTermSet": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name"
+      }
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/pioneer",
+        "@type": "SoftwareApplication",
+        "name": "Pioneer"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/warzone-2100",
+        "@type": "SoftwareApplication",
+        "name": "Warzone 2100"
+      }
+    }
+  ]
+}

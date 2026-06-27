@@ -1,0 +1,39 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/search-value",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name/dl",
+  "name": "publishers name dl",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers",
+      "@type": "ItemList",
+      "name": "publishers collection"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "dl",
+      "inDefinedTermSet": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name"
+      }
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/cdogs-sdl-community",
+        "@type": "Organization",
+        "name": "C-Dogs SDL Community"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/endless-sky-community",
+        "@type": "Organization",
+        "name": "Endless Sky Community"
+      }
+    }
+  ]
+}

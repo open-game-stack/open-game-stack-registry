@@ -1,0 +1,59 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/games/versions",
+  "@context": "https://schema.org/",
+  "@type": "SoftwareApplication",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/thrive/versions/1.1.0",
+  "name": "Thrive 1.1.0",
+  "version": "1.1.0",
+  "datePublished": "2026-05-23",
+  "releaseNotes": "Includes multicellular stage improvements, new organelle artwork, and performance fixes.",
+  "isPartOf": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/thrive",
+    "@type": "SoftwareApplication",
+    "name": "Thrive"
+  },
+  "associatedMedia": [
+    {
+      "@type": "MediaObject",
+      "name": "Thrive 1.1.0 Windows",
+      "encodingFormat": "application/x-7z-compressed",
+      "license": "https://spdx.org/licenses/GPL-3.0.html",
+      "operatingSystem": [
+        "windows"
+      ],
+      "processorRequirements": [
+        "x86_64"
+      ],
+      "contentSize": 600704371,
+      "sha256": "e76c8f64f3959a19b1eff7fa4bb735cee72043d24614d01bb9236c0a6c3f4f27",
+      "contentUrl": "https://github.com/Revolutionary-Games/Thrive/releases/download/v1.1.0/Thrive_1.1.0.0_windows_desktop.7z"
+    },
+    {
+      "@type": "MediaObject",
+      "name": "Thrive 1.1.0 macOS",
+      "encodingFormat": "application/zip",
+      "license": "https://spdx.org/licenses/GPL-3.0.html",
+      "operatingSystem": [
+        "macos"
+      ],
+      "contentSize": 755300718,
+      "sha256": "bc2dc5f00e9540788c2d3ace5ad8eaddb0f3a1b90efa2f11f68f22ec0750ec05",
+      "contentUrl": "https://github.com/Revolutionary-Games/Thrive/releases/download/v1.1.0/Thrive_1.1.0.0_mac_osx.zip"
+    },
+    {
+      "@type": "MediaObject",
+      "name": "Thrive 1.1.0 Linux",
+      "encodingFormat": "application/x-7z-compressed",
+      "license": "https://spdx.org/licenses/GPL-3.0.html",
+      "operatingSystem": [
+        "linux"
+      ],
+      "processorRequirements": [
+        "x86_64"
+      ],
+      "contentSize": 594877164,
+      "sha256": "71877915021f7eff58cd5111f40b4c1456f0332422a89323bccb74ed03c61017",
+      "contentUrl": "https://github.com/Revolutionary-Games/Thrive/releases/download/v1.1.0/Thrive_1.1.0.0_linux_x11.7z"
+    }
+  ]
+}

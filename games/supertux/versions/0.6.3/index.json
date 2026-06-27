@@ -1,0 +1,59 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/games/versions",
+  "@context": "https://schema.org/",
+  "@type": "SoftwareApplication",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/supertux/versions/0.6.3",
+  "name": "SuperTux 0.6.3",
+  "version": "0.6.3",
+  "datePublished": "2021-12-22",
+  "releaseNotes": "Fixes multiple level bugs, improves controller support, and adds new worldmap tiles.",
+  "isPartOf": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/supertux",
+    "@type": "SoftwareApplication",
+    "name": "SuperTux"
+  },
+  "associatedMedia": [
+    {
+      "@type": "MediaObject",
+      "name": "SuperTux 0.6.3 Windows 64-bit",
+      "encodingFormat": "application/x-ms-installer",
+      "license": "https://spdx.org/licenses/GPL-2.0.html",
+      "operatingSystem": [
+        "windows"
+      ],
+      "processorRequirements": [
+        "x86_64"
+      ],
+      "contentSize": 178823737,
+      "sha256": "97502d37e9525a5aa184adf44f9da7cf3a89a96755b61a0de4ea6002c8c1e232",
+      "contentUrl": "https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-win64.msi"
+    },
+    {
+      "@type": "MediaObject",
+      "name": "SuperTux 0.6.3 macOS",
+      "encodingFormat": "application/x-apple-diskimage",
+      "license": "https://spdx.org/licenses/GPL-2.0.html",
+      "operatingSystem": [
+        "macos"
+      ],
+      "contentSize": 192851074,
+      "sha256": "661abe09c56a60835eca9937dbd835d5887625d836edf83ed73a721245a486c9",
+      "contentUrl": "https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Darwin-10.15.dmg"
+    },
+    {
+      "@type": "MediaObject",
+      "name": "SuperTux 0.6.3 Linux x86_64",
+      "encodingFormat": "application/x-iso9660-appimage",
+      "license": "https://spdx.org/licenses/GPL-2.0.html",
+      "operatingSystem": [
+        "linux"
+      ],
+      "processorRequirements": [
+        "x86_64"
+      ],
+      "contentSize": 187475136,
+      "sha256": "7f86cec168d63e34ad61038b816f46691d3d994dfac922f2483e7fcfcd53236a",
+      "contentUrl": "https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3.glibc2.29-x86_64.AppImage"
+    }
+  ]
+}

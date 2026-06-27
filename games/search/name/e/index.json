@@ -22,17 +22,65 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/lumen-drift",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/astromenace",
         "@type": "SoftwareApplication",
-        "name": "Lumen Drift"
+        "name": "AstroMenace"
       }
     },
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/endless-sky",
         "@type": "SoftwareApplication",
-        "name": "Space Quest"
+        "name": "Endless Sky"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/openra",
+        "@type": "SoftwareApplication",
+        "name": "OpenRA"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/pioneer",
+        "@type": "SoftwareApplication",
+        "name": "Pioneer"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/supertux",
+        "@type": "SoftwareApplication",
+        "name": "SuperTux"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/thrive",
+        "@type": "SoftwareApplication",
+        "name": "Thrive"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/veloren",
+        "@type": "SoftwareApplication",
+        "name": "Veloren"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/warzone-2100",
+        "@type": "SoftwareApplication",
+        "name": "Warzone 2100"
       }
     }
   ]

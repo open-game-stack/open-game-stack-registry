@@ -1,0 +1,24 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/version",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/veloren/versions",
+  "name": "veloren versions",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/veloren",
+      "@type": "SoftwareApplication",
+      "name": "Veloren"
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/veloren/versions/2026.6.24",
+        "@type": "SoftwareApplication",
+        "name": "Veloren 2026.6.24"
+      }
+    }
+  ]
+}

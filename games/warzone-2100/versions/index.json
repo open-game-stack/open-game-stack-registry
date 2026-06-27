@@ -1,0 +1,24 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/version",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/warzone-2100/versions",
+  "name": "warzone-2100 versions",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/warzone-2100",
+      "@type": "SoftwareApplication",
+      "name": "Warzone 2100"
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/warzone-2100/versions/4.4.2",
+        "@type": "SoftwareApplication",
+        "name": "Warzone 2100 4.4.2"
+      }
+    }
+  ]
+}

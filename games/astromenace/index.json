@@ -1,0 +1,36 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/games",
+  "@context": "https://schema.org/",
+  "@type": "SoftwareApplication",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/astromenace",
+  "name": "AstroMenace",
+  "description": "Visual-forward 3D space scrolling shoot-em-up featuring deep weapon and ship upgrade customization.",
+  "applicationCategory": "action",
+  "keywords": [
+    "space-shooter",
+    "shmup",
+    "arcade",
+    "3d",
+    "action",
+    "singleplayer"
+  ],
+  "publisher": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/viewizard",
+    "@type": "Organization",
+    "name": "Viewizard"
+  },
+  "url": "https://github.com/viewizard/astromenace",
+  "image": "https://open-game-stack.github.io/open-game-stack-registry/games/astromenace/index.jpg",
+  "versions": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/astromenace/versions/1.3.2",
+      "@type": "SoftwareApplication",
+      "name": "AstroMenace 1.3.2"
+    }
+  ],
+  "latestVersion": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/astromenace/versions/1.3.2",
+    "@type": "SoftwareApplication",
+    "name": "AstroMenace 1.3.2"
+  }
+}

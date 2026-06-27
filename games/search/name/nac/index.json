@@ -1,0 +1,31 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/search-value",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/nac",
+  "name": "games name nac",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games",
+      "@type": "ItemList",
+      "name": "games collection"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "nac",
+      "inDefinedTermSet": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name"
+      }
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/astromenace",
+        "@type": "SoftwareApplication",
+        "name": "AstroMenace"
+      }
+    }
+  ]
+}

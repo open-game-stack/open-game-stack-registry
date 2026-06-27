@@ -1,0 +1,24 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/version",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/astromenace/versions",
+  "name": "astromenace versions",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/astromenace",
+      "@type": "SoftwareApplication",
+      "name": "AstroMenace"
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/astromenace/versions/1.3.2",
+        "@type": "SoftwareApplication",
+        "name": "AstroMenace 1.3.2"
+      }
+    }
+  ]
+}

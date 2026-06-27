@@ -1,0 +1,24 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/version",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/supertux/versions",
+  "name": "supertux versions",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/supertux",
+      "@type": "SoftwareApplication",
+      "name": "SuperTux"
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/supertux/versions/0.6.3",
+        "@type": "SoftwareApplication",
+        "name": "SuperTux 0.6.3"
+      }
+    }
+  ]
+}

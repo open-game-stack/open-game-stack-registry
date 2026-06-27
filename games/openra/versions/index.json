@@ -1,0 +1,24 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/version",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/openra/versions",
+  "name": "openra versions",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/openra",
+      "@type": "SoftwareApplication",
+      "name": "OpenRA"
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/openra/versions/2023.10.10",
+        "@type": "SoftwareApplication",
+        "name": "OpenRA 2023.10.10"
+      }
+    }
+  ]
+}

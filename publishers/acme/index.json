@@ -1,9 +1,0 @@
-{
-  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/publishers",
-  "@context": "https://schema.org/",
-  "@type": "Organization",
-  "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/acme",
-  "name": "Acme Interactive",
-  "description": "Independent publisher focused on polished retro-inspired releases.",
-  "url": "https://www.acmeinteractive.example.com"
-}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/search-value",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/end",
+  "name": "games name end",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games",
+      "@type": "ItemList",
+      "name": "games collection"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "end",
+      "inDefinedTermSet": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name"
+      }
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/endless-sky",
+        "@type": "SoftwareApplication",
+        "name": "Endless Sky"
+      }
+    }
+  ]
+}

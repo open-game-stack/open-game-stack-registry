@@ -1,0 +1,9 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/publishers",
+  "@context": "https://schema.org/",
+  "@type": "Organization",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/openra-project",
+  "name": "OpenRA Project",
+  "description": "Open-source project modernizing classic real-time strategy games like Command and Conquer.",
+  "url": "https://github.com/OpenRA"
+}

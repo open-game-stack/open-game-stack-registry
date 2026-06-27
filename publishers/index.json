@@ -8,17 +8,81 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/acme",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/castle-print",
         "@type": "Organization",
-        "name": "Acme Interactive"
+        "name": "Castle-Print"
       }
     },
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/lighthouse",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/cdogs-sdl-community",
         "@type": "Organization",
-        "name": "Lighthouse Studio"
+        "name": "C-Dogs SDL Community"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/endless-sky-community",
+        "@type": "Organization",
+        "name": "Endless Sky Community"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/openra-project",
+        "@type": "Organization",
+        "name": "OpenRA Project"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/pioneer-space-sim",
+        "@type": "Organization",
+        "name": "Pioneer Space Sim Team"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/revolutionary-games",
+        "@type": "Organization",
+        "name": "Revolutionary Games"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/supertux-team",
+        "@type": "Organization",
+        "name": "SuperTux Team"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/veloren-community",
+        "@type": "Organization",
+        "name": "Veloren Community"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/viewizard",
+        "@type": "Organization",
+        "name": "Viewizard"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/warzone-2100-project",
+        "@type": "Organization",
+        "name": "Warzone 2100 Project"
       }
     }
   ]

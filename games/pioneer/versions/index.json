@@ -1,0 +1,24 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/version",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/pioneer/versions",
+  "name": "pioneer versions",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/pioneer",
+      "@type": "SoftwareApplication",
+      "name": "Pioneer"
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/pioneer/versions/2026.2.3",
+        "@type": "SoftwareApplication",
+        "name": "Pioneer 2026.2.3"
+      }
+    }
+  ]
+}

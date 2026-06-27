@@ -22,9 +22,25 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/openra",
         "@type": "SoftwareApplication",
-        "name": "Space Quest"
+        "name": "OpenRA"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/pioneer",
+        "@type": "SoftwareApplication",
+        "name": "Pioneer"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/supertux",
+        "@type": "SoftwareApplication",
+        "name": "SuperTux"
       }
     }
   ]

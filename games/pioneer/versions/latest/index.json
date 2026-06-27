@@ -1,0 +1,44 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/games/versions",
+  "@context": "https://schema.org/",
+  "@type": "SoftwareApplication",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/pioneer/versions/2026.2.3",
+  "name": "Pioneer 20260203",
+  "version": "20260203",
+  "datePublished": "2026-02-03",
+  "releaseNotes": "Updates star system generation, improves ship physics, and fixes hyperspace jump edge cases.",
+  "isPartOf": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/pioneer",
+    "@type": "SoftwareApplication",
+    "name": "Pioneer"
+  },
+  "associatedMedia": [
+    {
+      "@type": "MediaObject",
+      "name": "Pioneer 20260203 Windows",
+      "encodingFormat": "application/vnd.microsoft.portable-executable",
+      "license": "https://spdx.org/licenses/GPL-3.0.html",
+      "operatingSystem": [
+        "windows"
+      ],
+      "contentSize": 564391041,
+      "sha256": "ac5e452fe28d6214ec35d0bf45e7192aa5cff7959b8a863e5f0a440fd8aa6078",
+      "contentUrl": "https://github.com/pioneerspacesim/pioneer/releases/download/20260203/pioneer-20260203-win.exe"
+    },
+    {
+      "@type": "MediaObject",
+      "name": "Pioneer 20260203 Linux x86_64",
+      "encodingFormat": "application/gzip",
+      "license": "https://spdx.org/licenses/GPL-3.0.html",
+      "operatingSystem": [
+        "linux"
+      ],
+      "processorRequirements": [
+        "x86_64"
+      ],
+      "contentSize": 776366302,
+      "sha256": "70edff08bb7d03268f3ca31d34246653284659aab6814bb71a2fdf5d5d976197",
+      "contentUrl": "https://github.com/pioneerspacesim/pioneer/releases/download/20260203/pioneer-linux-x64-20260203.tar.gz"
+    }
+  ]
+}

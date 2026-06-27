@@ -22,9 +22,25 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/acme",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/revolutionary-games",
         "@type": "Organization",
-        "name": "Acme Interactive"
+        "name": "Revolutionary Games"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/veloren-community",
+        "@type": "Organization",
+        "name": "Veloren Community"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/viewizard",
+        "@type": "Organization",
+        "name": "Viewizard"
       }
     }
   ]

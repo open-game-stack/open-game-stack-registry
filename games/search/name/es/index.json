@@ -22,9 +22,9 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/space-quest",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/endless-sky",
         "@type": "SoftwareApplication",
-        "name": "Space Quest"
+        "name": "Endless Sky"
       }
     }
   ]

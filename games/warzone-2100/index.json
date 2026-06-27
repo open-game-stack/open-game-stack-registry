@@ -1,0 +1,36 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/games",
+  "@context": "https://schema.org/",
+  "@type": "SoftwareApplication",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/warzone-2100",
+  "name": "Warzone 2100",
+  "description": "Full 3D real-time strategy campaign focusing on unit assembly, physics, and complex tech trees.",
+  "applicationCategory": "strategy",
+  "keywords": [
+    "rts",
+    "3d-strategy",
+    "sci-fi",
+    "tactics",
+    "war-game",
+    "campaign"
+  ],
+  "publisher": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/warzone-2100-project",
+    "@type": "Organization",
+    "name": "Warzone 2100 Project"
+  },
+  "url": "https://github.com/Warzone2100/warzone2100",
+  "image": "https://open-game-stack.github.io/open-game-stack-registry/games/warzone-2100/index.jpg",
+  "versions": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/warzone-2100/versions/4.4.2",
+      "@type": "SoftwareApplication",
+      "name": "Warzone 2100 4.4.2"
+    }
+  ],
+  "latestVersion": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/warzone-2100/versions/4.4.2",
+    "@type": "SoftwareApplication",
+    "name": "Warzone 2100 4.4.2"
+  }
+}

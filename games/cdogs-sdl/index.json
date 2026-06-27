@@ -1,0 +1,36 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/games",
+  "@context": "https://schema.org/",
+  "@type": "SoftwareApplication",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/cdogs-sdl",
+  "name": "C-Dogs SDL",
+  "description": "Classic top-down arcade run-and-gun shooter featuring local co-op, custom campaigns, and map editors.",
+  "applicationCategory": "action",
+  "keywords": [
+    "retro",
+    "top-down",
+    "arcade",
+    "shooter",
+    "co-op",
+    "multiplayer"
+  ],
+  "publisher": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/cdogs-sdl-community",
+    "@type": "Organization",
+    "name": "C-Dogs SDL Community"
+  },
+  "url": "https://github.com/cxong/cdogs-sdl",
+  "image": "https://open-game-stack.github.io/open-game-stack-registry/games/cdogs-sdl/index.jpg",
+  "versions": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/cdogs-sdl/versions/2.4.0",
+      "@type": "SoftwareApplication",
+      "name": "C-Dogs SDL 2.4.0"
+    }
+  ],
+  "latestVersion": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/cdogs-sdl/versions/2.4.0",
+    "@type": "SoftwareApplication",
+    "name": "C-Dogs SDL 2.4.0"
+  }
+}

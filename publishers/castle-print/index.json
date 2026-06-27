@@ -1,0 +1,9 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/publishers",
+  "@context": "https://schema.org/",
+  "@type": "Organization",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/castle-print",
+  "name": "Castle-Print",
+  "description": "Indie studio behind Tanks of Freedom, a turn-based tactical strategy game.",
+  "url": "https://github.com/w84death"
+}

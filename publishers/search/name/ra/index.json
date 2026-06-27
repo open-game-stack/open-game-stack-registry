@@ -22,9 +22,9 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/acme",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/openra-project",
         "@type": "Organization",
-        "name": "Acme Interactive"
+        "name": "OpenRA Project"
       }
     }
   ]

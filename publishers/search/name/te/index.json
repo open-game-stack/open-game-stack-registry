@@ -22,9 +22,17 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/acme",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/pioneer-space-sim",
         "@type": "Organization",
-        "name": "Acme Interactive"
+        "name": "Pioneer Space Sim Team"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/supertux-team",
+        "@type": "Organization",
+        "name": "SuperTux Team"
       }
     }
   ]

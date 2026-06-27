@@ -22,9 +22,25 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/lighthouse",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/cdogs-sdl-community",
         "@type": "Organization",
-        "name": "Lighthouse Studio"
+        "name": "C-Dogs SDL Community"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/endless-sky-community",
+        "@type": "Organization",
+        "name": "Endless Sky Community"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/viewizard",
+        "@type": "Organization",
+        "name": "Viewizard"
       }
     }
   ]

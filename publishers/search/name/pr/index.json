@@ -1,0 +1,47 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/search-value",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name/pr",
+  "name": "publishers name pr",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers",
+      "@type": "ItemList",
+      "name": "publishers collection"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "pr",
+      "inDefinedTermSet": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name"
+      }
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/castle-print",
+        "@type": "Organization",
+        "name": "Castle-Print"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/openra-project",
+        "@type": "Organization",
+        "name": "OpenRA Project"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/warzone-2100-project",
+        "@type": "Organization",
+        "name": "Warzone 2100 Project"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/games",
+  "@context": "https://schema.org/",
+  "@type": "SoftwareApplication",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/veloren",
+  "name": "Veloren",
+  "description": "Open-world multiplayer voxel RPG written in Rust, inspired by Cube World and Dwarf Fortress.",
+  "applicationCategory": "rpg",
+  "keywords": [
+    "multiplayer",
+    "voxel",
+    "rpg",
+    "rust",
+    "open-world",
+    "adventure"
+  ],
+  "publisher": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/veloren-community",
+    "@type": "Organization",
+    "name": "Veloren Community"
+  },
+  "url": "https://github.com/veloren/veloren",
+  "image": "https://open-game-stack.github.io/open-game-stack-registry/games/veloren/index.jpg",
+  "versions": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/veloren/versions/2026.6.24",
+      "@type": "SoftwareApplication",
+      "name": "Veloren 2026.6.24"
+    }
+  ],
+  "latestVersion": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/veloren/versions/2026.6.24",
+    "@type": "SoftwareApplication",
+    "name": "Veloren 2026.6.24"
+  }
+}

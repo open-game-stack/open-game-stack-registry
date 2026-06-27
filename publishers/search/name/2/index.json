@@ -1,0 +1,31 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/search-value",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name/2",
+  "name": "publishers name 2",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers",
+      "@type": "ItemList",
+      "name": "publishers collection"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "2",
+      "inDefinedTermSet": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/search/name"
+      }
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/warzone-2100-project",
+        "@type": "Organization",
+        "name": "Warzone 2100 Project"
+      }
+    }
+  ]
+}

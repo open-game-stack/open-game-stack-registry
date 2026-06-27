@@ -1,0 +1,36 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/games",
+  "@context": "https://schema.org/",
+  "@type": "SoftwareApplication",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/openra",
+  "name": "OpenRA",
+  "description": "A modernized RTS game engine rebuilding classic early strategy titles like Command and Conquer.",
+  "applicationCategory": "strategy",
+  "keywords": [
+    "rts",
+    "strategy",
+    "multiplayer",
+    "engine",
+    "retro",
+    "classic"
+  ],
+  "publisher": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/publishers/openra-project",
+    "@type": "Organization",
+    "name": "OpenRA Project"
+  },
+  "url": "https://github.com/OpenRA/OpenRA",
+  "image": "https://open-game-stack.github.io/open-game-stack-registry/games/openra/index.jpg",
+  "versions": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/openra/versions/2023.10.10",
+      "@type": "SoftwareApplication",
+      "name": "OpenRA 2023.10.10"
+    }
+  ],
+  "latestVersion": {
+    "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/openra/versions/2023.10.10",
+    "@type": "SoftwareApplication",
+    "name": "OpenRA 2023.10.10"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/version",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/endless-sky/versions",
+  "name": "endless-sky versions",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/endless-sky",
+      "@type": "SoftwareApplication",
+      "name": "Endless Sky"
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/endless-sky/versions/0.10.10",
+        "@type": "SoftwareApplication",
+        "name": "Endless Sky 0.10.10"
+      }
+    }
+  ]
+}

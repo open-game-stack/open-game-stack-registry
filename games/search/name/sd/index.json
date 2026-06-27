@@ -1,0 +1,31 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/search-value",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name/sd",
+  "name": "games name sd",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games",
+      "@type": "ItemList",
+      "name": "games collection"
+    },
+    {
+      "@type": "DefinedTerm",
+      "name": "sd",
+      "inDefinedTermSet": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/search/name"
+      }
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/cdogs-sdl",
+        "@type": "SoftwareApplication",
+        "name": "C-Dogs SDL"
+      }
+    }
+  ]
+}

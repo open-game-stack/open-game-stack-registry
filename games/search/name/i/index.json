@@ -22,9 +22,17 @@
     {
       "@type": "ListItem",
       "item": {
-        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/lumen-drift",
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/pioneer",
         "@type": "SoftwareApplication",
-        "name": "Lumen Drift"
+        "name": "Pioneer"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/thrive",
+        "@type": "SoftwareApplication",
+        "name": "Thrive"
       }
     }
   ]

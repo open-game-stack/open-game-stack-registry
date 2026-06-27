@@ -1,0 +1,24 @@
+{
+  "$schema": "https://open-game-stack.github.io/open-game-stack-registry/schema/version",
+  "@context": "https://schema.org/",
+  "@type": "ItemList",
+  "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/thrive/versions",
+  "name": "thrive versions",
+  "about": [
+    {
+      "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/thrive",
+      "@type": "SoftwareApplication",
+      "name": "Thrive"
+    }
+  ],
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "item": {
+        "@id": "https://open-game-stack.github.io/open-game-stack-registry/games/thrive/versions/1.1.0",
+        "@type": "SoftwareApplication",
+        "name": "Thrive 1.1.0"
+      }
+    }
+  ]
+}
