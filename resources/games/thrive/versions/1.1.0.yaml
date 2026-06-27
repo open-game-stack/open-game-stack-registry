@@ -1,0 +1,33 @@
+type: SoftwareApplication
+version: 1.1.0
+datePublished: 2026-05-23
+releaseNotes: Includes multicellular stage improvements, new organelle artwork, and performance fixes.
+associatedMedia:
+  - name: Thrive 1.1.0 Windows
+    contentUrl: https://github.com/Revolutionary-Games/Thrive/releases/download/v1.1.0/Thrive_1.1.0.0_windows_desktop.7z
+    encodingFormat: application/x-7z-compressed
+    license: https://spdx.org/licenses/GPL-3.0.html
+    operatingSystem:
+      - windows
+    processorRequirements:
+      - x86_64
+    sha256: e76c8f64f3959a19b1eff7fa4bb735cee72043d24614d01bb9236c0a6c3f4f27
+    contentSize: 600704371
+  - name: Thrive 1.1.0 macOS
+    contentUrl: https://github.com/Revolutionary-Games/Thrive/releases/download/v1.1.0/Thrive_1.1.0.0_mac_osx.zip
+    encodingFormat: application/zip
+    license: https://spdx.org/licenses/GPL-3.0.html
+    operatingSystem:
+      - macos
+    sha256: bc2dc5f00e9540788c2d3ace5ad8eaddb0f3a1b90efa2f11f68f22ec0750ec05
+    contentSize: 755300718
+  - name: Thrive 1.1.0 Linux
+    contentUrl: https://github.com/Revolutionary-Games/Thrive/releases/download/v1.1.0/Thrive_1.1.0.0_linux_x11.7z
+    encodingFormat: application/x-7z-compressed
+    license: https://spdx.org/licenses/GPL-3.0.html
+    operatingSystem:
+      - linux
+    processorRequirements:
+      - x86_64
+    sha256: 71877915021f7eff58cd5111f40b4c1456f0332422a89323bccb74ed03c61017
+    contentSize: 594877164

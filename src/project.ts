@@ -10,7 +10,7 @@ export interface ProjectDefinition {
 
 export const projectDefinition: ProjectDefinition = {
   config: {
-    apiName: "Static API JSON Schema",
+    apiName: "Open Game Stack Registry",
     apiVersion: "0.1.0",
     rootDomain: "https://open-game-stack.github.io/open-game-stack-registry",
     resourcesRoot: "resources",

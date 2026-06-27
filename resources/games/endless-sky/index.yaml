@@ -1,0 +1,14 @@
+type: SoftwareApplication
+name: Endless Sky
+description: 2D space exploration, trading, and combat sandbox game inspired by Escape Velocity.
+applicationCategory: simulation
+publisher: /publishers/endless-sky-community
+url: https://github.com/endless-sky/endless-sky
+image: /games/endless-sky/index.jpg
+keywords:
+  - space
+  - exploration
+  - trading
+  - rpg
+  - 2d
+  - sandbox

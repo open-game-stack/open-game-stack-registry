@@ -1,0 +1,14 @@
+type: SoftwareApplication
+name: SuperTux
+description: Classic 2D side-scrolling platformer heavily inspired by the classic Super Mario Bros games.
+applicationCategory: platformer
+publisher: /publishers/supertux-team
+url: https://github.com/SuperTux/supertux
+image: /games/supertux/index.jpg
+keywords:
+  - 2d
+  - platformer
+  - side-scroller
+  - retro
+  - casual
+  - singleplayer

@@ -1,0 +1,14 @@
+type: SoftwareApplication
+name: Warzone 2100
+description: Full 3D real-time strategy campaign focusing on unit assembly, physics, and complex tech trees.
+applicationCategory: strategy
+publisher: /publishers/warzone-2100-project
+url: https://github.com/Warzone2100/warzone2100
+image: /games/warzone-2100/index.jpg
+keywords:
+  - rts
+  - 3d-strategy
+  - sci-fi
+  - tactics
+  - war-game
+  - campaign

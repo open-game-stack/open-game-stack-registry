@@ -1,0 +1,14 @@
+type: SoftwareApplication
+name: OpenRA
+description: A modernized RTS game engine rebuilding classic early strategy titles like Command and Conquer.
+applicationCategory: strategy
+publisher: /publishers/openra-project
+url: https://github.com/OpenRA/OpenRA
+image: /games/openra/index.jpg
+keywords:
+  - rts
+  - strategy
+  - multiplayer
+  - engine
+  - retro
+  - classic

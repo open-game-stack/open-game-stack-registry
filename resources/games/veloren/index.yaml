@@ -1,0 +1,14 @@
+type: SoftwareApplication
+name: Veloren
+description: Open-world multiplayer voxel RPG written in Rust, inspired by Cube World and Dwarf Fortress.
+applicationCategory: rpg
+publisher: /publishers/veloren-community
+url: https://github.com/veloren/veloren
+image: /games/veloren/index.jpg
+keywords:
+  - multiplayer
+  - voxel
+  - rpg
+  - rust
+  - open-world
+  - adventure

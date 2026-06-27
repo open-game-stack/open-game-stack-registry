@@ -1,0 +1,33 @@
+type: SoftwareApplication
+version: 0.10.10
+datePublished: 2024-10-26
+releaseNotes: Adds new alien outfits, missions, and improvements to the flagship travel system.
+associatedMedia:
+  - name: Endless Sky 0.10.10 Windows 64-bit
+    contentUrl: https://github.com/endless-sky/endless-sky/releases/download/v0.10.10/EndlessSky-win64-v0.10.10.zip
+    encodingFormat: application/zip
+    license: https://spdx.org/licenses/GPL-3.0.html
+    operatingSystem:
+      - windows
+    processorRequirements:
+      - x86_64
+    sha256: 8c713558f04d662012ede65dee0ad1aa2e2e8f3d55e13abe2893ccf98bcc1480
+    contentSize: 274583374
+  - name: Endless Sky 0.10.10 macOS
+    contentUrl: https://github.com/endless-sky/endless-sky/releases/download/v0.10.10/Endless-Sky-v0.10.10.dmg
+    encodingFormat: application/x-apple-diskimage
+    license: https://spdx.org/licenses/GPL-3.0.html
+    operatingSystem:
+      - macos
+    sha256: 5f5a61a0360d76e4e66f3e20e04b626f0cd2341804b741726a05ae6a8050c01d
+    contentSize: 282303434
+  - name: Endless Sky 0.10.10 Linux x86_64
+    contentUrl: https://github.com/endless-sky/endless-sky/releases/download/v0.10.10/Endless_Sky-v0.10.10-x86_64.AppImage
+    encodingFormat: application/x-iso9660-appimage
+    license: https://spdx.org/licenses/GPL-3.0.html
+    operatingSystem:
+      - linux
+    processorRequirements:
+      - x86_64
+    sha256: 44279b800362d49ad1ca0a15beca3847e86b1969171c0d7633201bea0518d4f8
+    contentSize: 270373208

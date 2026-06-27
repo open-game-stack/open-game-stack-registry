@@ -5,7 +5,7 @@ import path from "node:path";
 import type { ProjectConfig } from "../src/core/types.js";
 
 export async function makeFixture(files: Record<string, string>): Promise<string> {
-  const cwd = await fs.mkdtemp(path.join(os.tmpdir(), "static-api-json-schema-"));
+  const cwd = await fs.mkdtemp(path.join(os.tmpdir(), "open-game-stack-registry-"));
   for (const [relativePath, content] of Object.entries(files)) {
     const fullPath = path.join(cwd, relativePath);
     await fs.mkdir(path.dirname(fullPath), { recursive: true });

@@ -1,5 +1,5 @@
 {
-  "name": "static-api-json-schema",
+  "name": "open-game-stack-registry",
   "version": "0.1.0",
   "type": "module",
   "description": "Transform yaml into schema.org-compatible JSON-LD files and deploy as a static API.",
@@ -21,7 +21,8 @@
     "start": "tsx ./src/core/build.ts",
     "test": "tsx --test ./test/*.test.ts",
     "typecheck": "tsc --noEmit",
-    "validate": "tsx ./src/core/validate.ts"
+    "validate": "tsx ./src/core/validate.ts",
+    "github-release": "tsx ./src/core/github-release.ts"
   },
   "dependencies": {
     "yaml": "^2.8.1",

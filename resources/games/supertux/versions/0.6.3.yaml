@@ -1,0 +1,33 @@
+type: SoftwareApplication
+version: 0.6.3
+datePublished: 2021-12-22
+releaseNotes: Fixes multiple level bugs, improves controller support, and adds new worldmap tiles.
+associatedMedia:
+  - name: SuperTux 0.6.3 Windows 64-bit
+    contentUrl: https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-win64.msi
+    encodingFormat: application/x-ms-installer
+    license: https://spdx.org/licenses/GPL-2.0.html
+    operatingSystem:
+      - windows
+    processorRequirements:
+      - x86_64
+    sha256: 97502d37e9525a5aa184adf44f9da7cf3a89a96755b61a0de4ea6002c8c1e232
+    contentSize: 178823737
+  - name: SuperTux 0.6.3 macOS
+    contentUrl: https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Darwin-10.15.dmg
+    encodingFormat: application/x-apple-diskimage
+    license: https://spdx.org/licenses/GPL-2.0.html
+    operatingSystem:
+      - macos
+    sha256: 661abe09c56a60835eca9937dbd835d5887625d836edf83ed73a721245a486c9
+    contentSize: 192851074
+  - name: SuperTux 0.6.3 Linux x86_64
+    contentUrl: https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3.glibc2.29-x86_64.AppImage
+    encodingFormat: application/x-iso9660-appimage
+    license: https://spdx.org/licenses/GPL-2.0.html
+    operatingSystem:
+      - linux
+    processorRequirements:
+      - x86_64
+    sha256: 7f86cec168d63e34ad61038b816f46691d3d994dfac922f2483e7fcfcd53236a
+    contentSize: 187475136

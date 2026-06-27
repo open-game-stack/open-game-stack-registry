@@ -1,0 +1,36 @@
+type: SoftwareApplication
+version: 4.4.2
+datePublished: 2023-11-29
+releaseNotes: Fixes campaign AI regressions, improves multiplayer lobby stability, and updates map scripts.
+associatedMedia:
+  - name: Warzone 2100 4.4.2 Windows 64-bit
+    contentUrl: https://github.com/Warzone2100/warzone2100/releases/download/4.4.2/warzone2100_win_x64_installer.exe
+    encodingFormat: application/vnd.microsoft.portable-executable
+    license: https://spdx.org/licenses/GPL-2.0.html
+    operatingSystem:
+      - windows
+    processorRequirements:
+      - x86_64
+    sha256: d9ae3823f7074c4d50f6482b04adbfae3dd61efbe4d0b48a4eac4a3e7a63c710
+    contentSize: 344698222
+  - name: Warzone 2100 4.4.2 macOS Universal
+    contentUrl: https://github.com/Warzone2100/warzone2100/releases/download/4.4.2/warzone2100_macOS_universal_novideos.zip
+    encodingFormat: application/zip
+    license: https://spdx.org/licenses/GPL-2.0.html
+    operatingSystem:
+      - macos
+    processorRequirements:
+      - x86_64
+      - arm64
+    sha256: 3c3d9129113a4146b788c3e97f07bc910e401c6ffb05d5aded58f8fbcb947339
+    contentSize: 482196453
+  - name: Warzone 2100 4.4.2 Linux Ubuntu 22.04
+    contentUrl: https://github.com/Warzone2100/warzone2100/releases/download/4.4.2/warzone2100_ubuntu22.04_amd64.deb
+    encodingFormat: application/vnd.debian.binary-package
+    license: https://spdx.org/licenses/GPL-2.0.html
+    operatingSystem:
+      - linux
+    processorRequirements:
+      - x86_64
+    sha256: 759ed72f9bf6d08d78b264a6bece423d288f7f4c92dcb602c2d4bdd26ed28df6
+    contentSize: 440368156

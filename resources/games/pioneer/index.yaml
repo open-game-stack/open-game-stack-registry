@@ -1,0 +1,13 @@
+type: SoftwareApplication
+name: Pioneer
+description: A space adventure, exploration, and trade simulator set in a massive, realistic sandbox galaxy.
+applicationCategory: simulation
+publisher: /publishers/pioneer-space-sim
+url: https://github.com/pioneerspacesim/pioneer
+image: /games/pioneer/index.jpg
+keywords:
+  - space-sim
+  - astronomy
+  - exploration
+  - trading
+  - sandbox

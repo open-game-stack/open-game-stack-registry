@@ -1,0 +1,14 @@
+type: SoftwareApplication
+name: AstroMenace
+description: Visual-forward 3D space scrolling shoot-em-up featuring deep weapon and ship upgrade customization.
+applicationCategory: action
+publisher: /publishers/viewizard
+url: https://github.com/viewizard/astromenace
+image: /games/astromenace/index.jpg
+keywords:
+  - space-shooter
+  - shmup
+  - arcade
+  - 3d
+  - action
+  - singleplayer

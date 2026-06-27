@@ -1,0 +1,14 @@
+type: SoftwareApplication
+name: C-Dogs SDL
+description: Classic top-down arcade run-and-gun shooter featuring local co-op, custom campaigns, and map editors.
+applicationCategory: action
+publisher: /publishers/cdogs-sdl-community
+url: https://github.com/cxong/cdogs-sdl
+image: /games/cdogs-sdl/index.jpg
+keywords:
+  - retro
+  - top-down
+  - arcade
+  - shooter
+  - co-op
+  - multiplayer

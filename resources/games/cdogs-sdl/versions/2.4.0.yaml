@@ -1,0 +1,31 @@
+type: SoftwareApplication
+version: 2.4.0
+datePublished: 2026-01-26
+releaseNotes: Adds new campaign missions, improves online multiplayer stability, and refreshes the map editor UI.
+associatedMedia:
+  - name: C-Dogs SDL 2.4.0 Linux
+    contentUrl: https://github.com/cxong/cdogs-sdl/releases/download/2.4.0/C-Dogs.SDL-2.4.0-Linux.tar.gz
+    encodingFormat: application/gzip
+    license: https://spdx.org/licenses/BSD-2-Clause.html
+    operatingSystem:
+      - linux
+    sha256: f5d9c7f97fde5972a6e579813b3102a9233c3381acb03e43dee6acefe14f9bad
+    contentSize: 29387336
+  - name: C-Dogs SDL 2.4.0 macOS
+    contentUrl: https://github.com/cxong/cdogs-sdl/releases/download/2.4.0/C-Dogs.SDL-2.4.0-OSX.dmg
+    encodingFormat: application/x-apple-diskimage
+    license: https://spdx.org/licenses/BSD-2-Clause.html
+    operatingSystem:
+      - macos
+    sha256: c5c79978f3410a9e7fa077aeb6a5168ebfc70d2752d666753ad1a10e5390bf3b
+    contentSize: 31104984
+  - name: C-Dogs SDL 2.4.0 Windows 32-bit
+    contentUrl: https://github.com/cxong/cdogs-sdl/releases/download/2.4.0/C-Dogs.SDL-2.4.0-win32.exe
+    encodingFormat: application/vnd.microsoft.portable-executable
+    license: https://spdx.org/licenses/BSD-2-Clause.html
+    operatingSystem:
+      - windows
+    processorRequirements:
+      - x86
+    sha256: d2c7ea32acb33eacfc5550f847eb4014c38ffe93a1c6c84b6d5b1e3d4c8cbdf8
+    contentSize: 31941555

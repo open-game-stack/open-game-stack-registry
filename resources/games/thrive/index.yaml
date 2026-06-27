@@ -1,0 +1,13 @@
+type: SoftwareApplication
+name: Thrive
+description: An evolution simulation game where players guide a custom microbe species through the spark of life.
+applicationCategory: simulation
+publisher: /publishers/revolutionary-games
+url: https://github.com/Revolutionary-Games/Thrive
+image: /games/thrive/index.jpg
+keywords:
+  - evolution
+  - simulation
+  - biology
+  - godot
+  - singleplayer

@@ -1,6 +1,6 @@
-# Static API JSON Schema
+# Open Game Stack Registry
 
-Static API JSON Schema transforms repository-local YAML resources into schema.org-compatible JSON-LD documents and static index documents for deployment to static hosting.
+Open Game Stack Registry transforms repository-local YAML resources into schema.org-compatible JSON-LD documents and static index documents for deployment to static hosting.
 
 ## Commands
 
