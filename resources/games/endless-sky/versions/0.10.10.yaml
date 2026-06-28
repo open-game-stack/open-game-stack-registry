@@ -11,6 +11,7 @@ associatedMedia:
       - windows
     processorRequirements:
       - x86_64
+    entryPoint: Endless Sky.exe
     sha256: 8c713558f04d662012ede65dee0ad1aa2e2e8f3d55e13abe2893ccf98bcc1480
     contentSize: 274583374
   - name: Endless Sky 0.10.10 macOS

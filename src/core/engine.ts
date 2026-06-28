@@ -308,6 +308,7 @@ async function generateArtifacts(
       config,
       resourcesRoot,
       instance,
+      instances,
       definition,
       referenceTargets,
       claims,
@@ -367,6 +368,7 @@ function compileResourceArtifacts(
   config: ProjectConfig,
   resourcesRoot: string,
   instance: ResourceInstance,
+  allInstances: ResourceInstance[],
   definition: SchemaRegistry[string],
   referenceTargets: Map<string, ReferenceTarget>,
   claims: Map<string, string>,
@@ -409,6 +411,14 @@ function compileResourceArtifacts(
       return referencePaths.map((referencePath) =>
         resolveReference(referencePath, referenceTargets, instance.resource.filePath),
       );
+    },
+    lookupVersions(resourcePath) {
+      const parts = resourcePath.replace(/^\//, "").split("/");
+      const resourceType = parts[0];
+      const resourceId = parts[1];
+      if (!resourceType || !resourceId) return undefined;
+      return allInstances.find((i) => i.resource.resourceType === resourceType && i.resource.resourceId === resourceId)
+        ?.versions;
     },
     copyAsset(asset, owner) {
       return copyAsset(cwd, resourcesRoot, config, claims, assets, asset, owner, instance.resource.filePath);

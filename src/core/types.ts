@@ -98,6 +98,7 @@ export interface CompileHelpers {
   makeJsonLdDocumentAt(url: string, documentType: string, fields: JsonObject): JsonObject;
   resolveInternalReference(referencePath: string): ReferenceObject;
   resolveInternalReferences(referencePaths: string[]): ReferenceObject[];
+  lookupVersions(resourcePath: string): LoadedVersionSource[] | undefined;
   copyAsset(
     asset: string | AssetInput,
     owner:

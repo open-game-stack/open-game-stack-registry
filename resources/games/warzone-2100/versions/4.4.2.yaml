@@ -22,6 +22,7 @@ associatedMedia:
     processorRequirements:
       - x86_64
       - arm64
+    entryPoint: Warzone 2100.app
     sha256: 3c3d9129113a4146b788c3e97f07bc910e401c6ffb05d5aded58f8fbcb947339
     contentSize: 482196453
   - name: Warzone 2100 4.4.2 Linux Ubuntu 22.04

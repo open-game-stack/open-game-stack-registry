@@ -11,6 +11,7 @@ associatedMedia:
       - linux
     processorRequirements:
       - x86_64
+    entryPoint: veloren-voxygen
     sha256: fd0e8df367873acd4926c9d84a6e7e95df3cd8101205db963a1f9e7b35caab97
     contentSize: 466559204
   - name: Veloren weekly-2026-06-24 Linux arm64
@@ -21,6 +22,7 @@ associatedMedia:
       - linux
     processorRequirements:
       - arm64
+    entryPoint: veloren-voxygen
     sha256: b3128b2ab08e46688a10b4c820aa836b63a42e99cc8c85ae5b110686f9320261
     contentSize: 460064823
   - name: Veloren weekly-2026-06-24 macOS x86_64
@@ -31,6 +33,7 @@ associatedMedia:
       - macos
     processorRequirements:
       - x86_64
+    entryPoint: veloren-voxygen
     sha256: 08b3350572a216c971a194402f4b84954869aa37f4977c8f12363737e77e5979
     contentSize: 417787748
   - name: Veloren weekly-2026-06-24 macOS arm64
@@ -41,6 +44,7 @@ associatedMedia:
       - macos
     processorRequirements:
       - arm64
+    entryPoint: veloren-voxygen
     sha256: 4e307304e15c84771508fe4f2696683abe550bed85f8944c0dc63799ae1719f0
     contentSize: 410078276
   - name: Veloren weekly-2026-06-24 Windows x86_64
@@ -51,5 +55,6 @@ associatedMedia:
       - windows
     processorRequirements:
       - x86_64
+    entryPoint: veloren-voxygen.exe
     sha256: ad2f972b60956c7dfa527b400de7f9c002183adeb418c924784bcbb5a6f58789
     contentSize: 470401300
