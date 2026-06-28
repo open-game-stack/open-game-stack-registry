@@ -25,6 +25,27 @@
     "releaseNotes": {
       "type": "string"
     },
+    "runner": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uri"
+        },
+        "version": {
+          "type": "string"
+        },
+        "args": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "version",
+        "args"
+      ],
+      "additionalProperties": false
+    },
     "isPartOf": {
       "type": "object",
       "properties": {
@@ -89,6 +110,9 @@
             "items": {
               "type": "string"
             }
+          },
+          "entryPoint": {
+            "type": "string"
           }
         },
         "required": [
@@ -111,9 +135,7 @@
     "name",
     "version",
     "datePublished",
-    "releaseNotes",
-    "isPartOf",
-    "associatedMedia"
+    "isPartOf"
   ],
   "additionalProperties": false,
   "$id": "https://open-game-stack.github.io/open-game-stack-registry/schema/games/versions"

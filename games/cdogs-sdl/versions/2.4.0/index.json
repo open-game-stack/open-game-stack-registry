@@ -21,6 +21,7 @@
       "operatingSystem": [
         "linux"
       ],
+      "entryPoint": "C-Dogs.SDL-2.4.0-Linux/bin/cdogs-sdl",
       "contentSize": 29387336,
       "sha256": "f5d9c7f97fde5972a6e579813b3102a9233c3381acb03e43dee6acefe14f9bad",
       "contentUrl": "https://github.com/cxong/cdogs-sdl/releases/download/2.4.0/C-Dogs.SDL-2.4.0-Linux.tar.gz"

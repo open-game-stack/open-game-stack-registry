@@ -36,6 +36,7 @@
       "processorRequirements": [
         "x86_64"
       ],
+      "entryPoint": "pioneer-linux-x64-20260203/pioneer",
       "contentSize": 776366302,
       "sha256": "70edff08bb7d03268f3ca31d34246653284659aab6814bb71a2fdf5d5d976197",
       "contentUrl": "https://github.com/pioneerspacesim/pioneer/releases/download/20260203/pioneer-linux-x64-20260203.tar.gz"
