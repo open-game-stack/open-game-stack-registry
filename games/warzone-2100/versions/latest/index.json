@@ -16,7 +16,7 @@
     {
       "@type": "MediaObject",
       "name": "Warzone 2100 4.4.2 Windows 64-bit",
-      "encodingFormat": "application/vnd.microsoft.portable-executable",
+      "encodingFormat": "application/x-nsis",
       "license": "https://spdx.org/licenses/GPL-2.0.html",
       "operatingSystem": [
         "windows"

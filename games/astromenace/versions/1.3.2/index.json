@@ -16,7 +16,7 @@
     {
       "@type": "MediaObject",
       "name": "AstroMenace 1.3.2 Windows",
-      "encodingFormat": "application/vnd.microsoft.portable-executable",
+      "encodingFormat": "application/x-inno-setup",
       "license": "https://spdx.org/licenses/GPL-3.0.html",
       "operatingSystem": [
         "windows"
@@ -34,6 +34,7 @@
       "operatingSystem": [
         "macos"
       ],
+      "entryPoint": "AstroMenace.app",
       "contentSize": 57284422,
       "sha256": "8a298c84d5cfd24d01013eae94ded4cc4c6598c5cc8fc4b4c9ff85637f74cdef",
       "contentUrl": "https://github.com/viewizard/astromenace/releases/download/v1.3.2/astromenace-macosx-1.3.2.dmg"

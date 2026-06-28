@@ -36,6 +36,7 @@
       "operatingSystem": [
         "macos"
       ],
+      "entryPoint": "SuperTux v0.6.3/SuperTux.app",
       "contentSize": 192851074,
       "sha256": "661abe09c56a60835eca9937dbd835d5887625d836edf83ed73a721245a486c9",
       "contentUrl": "https://github.com/SuperTux/supertux/releases/download/v0.6.3/SuperTux-v0.6.3-Darwin-10.15.dmg"

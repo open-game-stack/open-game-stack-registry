@@ -16,7 +16,7 @@
     {
       "@type": "MediaObject",
       "name": "OpenRA 20231010 Windows 64-bit",
-      "encodingFormat": "application/vnd.microsoft.portable-executable",
+      "encodingFormat": "application/x-nsis",
       "license": "https://spdx.org/licenses/GPL-3.0.html",
       "operatingSystem": [
         "windows"
