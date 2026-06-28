@@ -20,6 +20,7 @@ associatedMedia:
     license: https://spdx.org/licenses/GPL-3.0.html
     operatingSystem:
       - macos
+    entryPoint: Endless Sky.app
     sha256: 5f5a61a0360d76e4e66f3e20e04b626f0cd2341804b741726a05ae6a8050c01d
     contentSize: 282303434
   - name: Endless Sky 0.10.10 Linux x86_64

@@ -5,7 +5,7 @@ releaseNotes: Improves pathfinding, updates engine compatibility, and fixes seve
 associatedMedia:
   - name: OpenRA 20231010 Windows 64-bit
     contentUrl: https://github.com/OpenRA/OpenRA/releases/download/release-20231010/OpenRA-release-20231010-x64.exe
-    encodingFormat: application/vnd.microsoft.portable-executable
+    encodingFormat: application/x-nsis
     license: https://spdx.org/licenses/GPL-3.0.html
     operatingSystem:
       - windows

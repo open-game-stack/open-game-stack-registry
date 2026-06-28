@@ -18,11 +18,12 @@ associatedMedia:
     license: https://spdx.org/licenses/BSD-2-Clause.html
     operatingSystem:
       - macos
+    entryPoint: cdogs-sdl/bin/cdogs-sdl
     sha256: c5c79978f3410a9e7fa077aeb6a5168ebfc70d2752d666753ad1a10e5390bf3b
     contentSize: 31104984
   - name: C-Dogs SDL 2.4.0 Windows 32-bit
     contentUrl: https://github.com/cxong/cdogs-sdl/releases/download/2.4.0/C-Dogs.SDL-2.4.0-win32.exe
-    encodingFormat: application/vnd.microsoft.portable-executable
+    encodingFormat: application/x-nsis
     license: https://spdx.org/licenses/BSD-2-Clause.html
     operatingSystem:
       - windows

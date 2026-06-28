@@ -5,7 +5,7 @@ releaseNotes: Fixes campaign AI regressions, improves multiplayer lobby stabilit
 associatedMedia:
   - name: Warzone 2100 4.4.2 Windows 64-bit
     contentUrl: https://github.com/Warzone2100/warzone2100/releases/download/4.4.2/warzone2100_win_x64_installer.exe
-    encodingFormat: application/vnd.microsoft.portable-executable
+    encodingFormat: application/x-nsis
     license: https://spdx.org/licenses/GPL-2.0.html
     operatingSystem:
       - windows
